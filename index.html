@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AlbertaCasino.live — Best Online Casinos in Alberta 2026</title>
-<meta name="description" content="Find the best AGLC-regulated online casinos for Alberta players. Expert reviews, regulation news, and bonus guides for the July 13, 2026 launch.">
+<title>AlbertaCasino.live - Best Online Casinos in Alberta 2026</title>
+<meta name="description" content="Find the best AGLC-regulated online casinos for Alberta players. Expert reviews of BetMGM, BetCity, Play Alberta and more for the July 13, 2026 launch.">
+<meta name="google-site-verification" content="ZZMbZONQdd7LinacYCdlBgLkixBv7Dvrq2yEIpOwAPg" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 <style>
@@ -58,6 +59,91 @@ img{max-width:100%}
   .nav-links{display:none}
   .nav-cta{display:none}
   .section{padding:2rem 0}
+}
+
+/* Review page shared styles */
+.article-hero{background:#0D1B2A;padding:2.5rem 2rem}
+.breadcrumb{font-size:0.78rem;color:rgba(255,255,255,0.4);margin-bottom:1rem}
+.breadcrumb a{color:rgba(255,255,255,0.4)}.breadcrumb a:hover{color:rgba(255,255,255,0.7)}
+.breadcrumb span{margin:0 0.4rem}
+.review-header{display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:1.5rem}
+.review-logo-lg{width:80px;height:80px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-family:'Sora',sans-serif;font-weight:800;font-size:1.5rem;color:#fff;flex-shrink:0}
+.review-headline h1{font-family:'Sora',sans-serif;font-size:1.75rem;font-weight:700;color:#fff;line-height:1.2;letter-spacing:-0.5px;margin-bottom:0.5rem}
+.review-headline p{font-size:0.88rem;color:rgba(255,255,255,0.55);line-height:1.5}
+.reg-badge-lg{display:inline-flex;align-items:center;gap:5px;font-size:0.75rem;font-weight:600;padding:0.3rem 0.75rem;border-radius:20px;margin-top:0.5rem}
+.reg-badge-lg.aglc{background:#EAF3DE;color:#27500A}
+.reg-badge-lg.gov{background:#EFF6FF;color:#1e6ab8}
+.score-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:0.75rem;margin-bottom:1.5rem}
+.score-card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:0.85rem 1rem}
+.score-card-label{font-size:0.68rem;color:rgba(255,255,255,0.45);font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px}
+.score-card-val{font-family:'Sora',sans-serif;font-weight:700;font-size:1.5rem;color:#C9973A}
+.score-card-bar{height:3px;background:rgba(255,255,255,0.1);border-radius:2px;margin-top:6px;overflow:hidden}
+.score-card-fill{height:100%;background:#C9973A;border-radius:2px}
+.overall-score{background:#C9973A;border-radius:10px;padding:1rem;text-align:center}
+.overall-label{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:rgba(13,27,42,0.7);margin-bottom:2px}
+.overall-num{font-family:'Sora',sans-serif;font-weight:800;font-size:2rem;color:#0D1B2A;line-height:1}
+.overall-max{font-size:0.75rem;color:rgba(13,27,42,0.55)}
+.quick-facts{background:#fff;border-radius:12px;border:1px solid #e8eaed;padding:1.25rem;margin-bottom:1.5rem}
+.quick-facts-title{font-family:'Sora',sans-serif;font-weight:700;font-size:0.88rem;color:#0D1B2A;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #f0f0f0}
+.facts-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.6rem}
+.fact-row{display:flex;flex-direction:column;gap:2px;padding:0.5rem 0;border-bottom:1px solid #f5f5f5}
+.fact-row:nth-last-child(-n+2){border-bottom:none}
+.fact-row-label{font-size:0.68rem;color:#9ca3af;font-weight:600;text-transform:uppercase;letter-spacing:0.3px}
+.fact-row-val{font-size:0.85rem;font-weight:600;color:#0D1B2A}
+.review-layout{display:grid;grid-template-columns:1fr 300px;gap:2.5rem;align-items:start;padding:2rem 0}
+.review-body{min-width:0}
+.review-body h2{font-family:'Sora',sans-serif;font-weight:700;font-size:1.2rem;color:#0D1B2A;margin:2.5rem 0 0.75rem;letter-spacing:-0.3px;padding-top:0.5rem;border-top:2px solid #f0f0f0}
+.review-body h2:first-child{margin-top:0;border-top:none;padding-top:0}
+.review-body h3{font-family:'Sora',sans-serif;font-weight:600;font-size:1rem;color:#0D1B2A;margin:1.25rem 0 0.5rem}
+.review-body p{font-size:0.92rem;color:#374151;line-height:1.75;margin-bottom:1.1rem}
+.review-body strong{color:#0D1B2A;font-weight:600}
+.review-body ul{margin:0.5rem 0 1rem 1.25rem}
+.review-body ul li{font-size:0.9rem;color:#374151;line-height:1.65;margin-bottom:0.35rem}
+.verdict-box{background:#0D1B2A;border-radius:12px;padding:1.5rem;margin:2rem 0}
+.verdict-title{font-family:'Sora',sans-serif;font-weight:700;font-size:1rem;color:#C9973A;margin-bottom:0.75rem}
+.verdict-text{font-size:0.9rem;color:rgba(255,255,255,0.75);line-height:1.7;margin-bottom:1.25rem}
+.verdict-cta{display:inline-flex;align-items:center;gap:6px;background:#2B7FD4;color:#fff;border:none;border-radius:8px;padding:0.75rem 1.25rem;font-size:0.9rem;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;text-decoration:none}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0}
+.pros,.cons{border-radius:10px;padding:1.1rem}
+.pros{background:#EAF3DE;border:1px solid #c6e0a8}
+.cons{background:#FCEBEB;border:1px solid #f5c1c1}
+.pros h4{font-family:'Sora',sans-serif;font-weight:700;font-size:0.85rem;color:#27500A;margin-bottom:0.6rem}
+.cons h4{font-family:'Sora',sans-serif;font-weight:700;font-size:0.85rem;color:#791F1F;margin-bottom:0.6rem}
+.pros ul,.cons ul{margin:0;padding-left:1.1rem}
+.pros ul li{font-size:0.82rem;color:#27500A;line-height:1.6;margin-bottom:0.3rem}
+.cons ul li{font-size:0.82rem;color:#791F1F;line-height:1.6;margin-bottom:0.3rem}
+.rating-breakdown{background:#F5F7FA;border-radius:10px;padding:1.25rem;margin:1.5rem 0}
+.rb-title{font-family:'Sora',sans-serif;font-weight:700;font-size:0.88rem;color:#0D1B2A;margin-bottom:1rem}
+.rb-row{display:flex;align-items:center;gap:0.75rem;margin-bottom:0.6rem}
+.rb-label{font-size:0.8rem;color:#5a6270;font-weight:500;width:120px;flex-shrink:0}
+.rb-track{flex:1;height:6px;background:#e8eaed;border-radius:3px;overflow:hidden}
+.rb-fill{height:100%;background:#2B7FD4;border-radius:3px}
+.rb-val{font-size:0.8rem;font-weight:700;color:#0D1B2A;width:30px;text-align:right}
+.sidebar-sticky{position:sticky;top:80px;display:flex;flex-direction:column;gap:1rem}
+.sidebar-cta{background:#2B7FD4;border-radius:12px;padding:1.25rem;text-align:center}
+.sidebar-cta-logo{width:56px;height:56px;border-radius:10px;margin:0 auto 0.75rem;display:flex;align-items:center;justify-content:center;font-family:'Sora',sans-serif;font-weight:800;font-size:1.1rem;color:#fff}
+.sidebar-cta-name{font-family:'Sora',sans-serif;font-weight:700;font-size:0.95rem;color:#fff;margin-bottom:0.25rem}
+.sidebar-cta-bonus{font-size:0.8rem;color:rgba(255,255,255,0.7);margin-bottom:1rem}
+.sidebar-cta-btn{display:block;background:#fff;color:#2B7FD4;border-radius:8px;padding:0.7rem;font-size:0.88rem;font-weight:700;text-align:center;font-family:'Inter',sans-serif;transition:opacity 0.2s}
+.sidebar-cta-btn:hover{opacity:0.9}
+.sidebar-cta-disclaimer{font-size:0.68rem;color:rgba(255,255,255,0.4);margin-top:0.5rem;line-height:1.4}
+.sidebar-card{background:#fff;border-radius:12px;border:1px solid #e8eaed;padding:1.25rem}
+.sidebar-card-title{font-family:'Sora',sans-serif;font-weight:700;font-size:0.85rem;color:#0D1B2A;margin-bottom:0.75rem;padding-bottom:0.5rem;border-bottom:1px solid #f0f0f0}
+.sidebar-link{display:flex;gap:0.6rem;align-items:flex-start;padding:0.4rem 0;border-bottom:1px solid #f5f5f5;color:inherit}
+.sidebar-link:last-child{border-bottom:none}
+.sidebar-link-emoji{font-size:1.1rem;flex-shrink:0}
+.sidebar-link-title{font-size:0.8rem;font-weight:500;color:#0D1B2A;line-height:1.35}
+.sidebar-link-meta{font-size:0.7rem;color:#9ca3af;margin-top:1px}
+.key-takeaway{background:#EFF6FF;border-left:3px solid #2B7FD4;border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin:1.5rem 0}
+.key-takeaway p{margin:0;font-size:0.88rem;color:#1e3a5f;line-height:1.6}
+.disclaimer{background:#F5F7FA;border-radius:8px;padding:1rem;font-size:0.78rem;color:#9ca3af;line-height:1.6;margin-top:2rem}
+@media(max-width:760px){
+  .review-layout{grid-template-columns:1fr}
+  .sidebar-sticky{display:none}
+  .pros-cons{grid-template-columns:1fr}
+  .score-summary{grid-template-columns:repeat(3,1fr)}
+  .review-header{flex-direction:column;gap:0.75rem}
+  .facts-grid{grid-template-columns:1fr}
 }
 
 [data-page]{display:none}
@@ -146,7 +232,7 @@ img{max-width:100%}
 </nav>
 
 <div class="hero">
-  <div class="hero-eyebrow"><i class="ti ti-map-pin"></i>Alberta iGaming — July 13, 2026</div>
+  <div class="hero-eyebrow"><i class="ti ti-map-pin"></i>Alberta iGaming - July 13, 2026</div>
   <h1>Find the best <em>regulated</em> casino for Alberta</h1>
   <p class="hero-sub">Alberta's private online gambling market opens July 13. We track every AGLC-registered operator so you can play safely from day one.</p>
   <div class="hero-actions">
@@ -186,27 +272,27 @@ img{max-width:100%}
           <div class="mini-logo" style="background:#1a6fbd">BC</div>
           <div><div class="mini-name">BetCity Alberta</div><div class="mini-reg">AGLC Registered</div></div>
         </div>
-        <div class="mini-stars"><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-half mini-star"></i><span style="font-size:0.8rem;font-weight:600;color:#0D1B2A;margin-left:3px">4.8</span></div>
+        <div class="mini-stars"><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-half mini-star"></i><span style="font-size:0.8rem;font-weight:600;color:#0D1B2A;margin-left:3px">9.2/10</span></div>
         <div class="mini-bonus">Bonus: <strong>C$1,000 + 200 FS</strong></div>
-        <a href="reviews.html" class="mini-btn">Read Review →</a>
+        <a href="reviews/betcity-alberta.html" class="mini-btn">Read Review →</a>
       </div>
       <div class="casino-mini">
         <div class="casino-mini-top">
-          <div class="mini-logo" style="background:#1a8c6a">SB</div>
-          <div><div class="mini-name">SpinBear Casino</div><div class="mini-reg pending">AGLC Pending</div></div>
+          <div class="mini-logo" style="background:#e4002b">MGM</div>
+          <div><div class="mini-name">BetMGM Alberta</div><div class="mini-reg">AGLC Registered</div></div>
         </div>
-        <div class="mini-stars"><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star mini-star" style="color:#d1d5db"></i><span style="font-size:0.8rem;font-weight:600;color:#0D1B2A;margin-left:3px">4.5</span></div>
-        <div class="mini-bonus">Bonus: <strong>C$750 + 150 FS</strong></div>
-        <a href="reviews.html" class="mini-btn">Read Review →</a>
+        <div class="mini-stars"><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-half mini-star"></i><span style="font-size:0.8rem;font-weight:600;color:#0D1B2A;margin-left:3px">9.4/10</span></div>
+        <div class="mini-bonus">Bonus: <strong>C$3,000 + C$100 free</strong></div>
+        <a href="reviews/betmgm-alberta.html" class="mini-btn">Read Review →</a>
       </div>
       <div class="casino-mini">
         <div class="casino-mini-top">
-          <div class="mini-logo" style="background:#7c3aed">PA</div>
+          <div class="mini-logo" style="background:#005eb8">PA</div>
           <div><div class="mini-name">Play Alberta</div><div class="mini-reg">Gov. Operated</div></div>
         </div>
-        <div class="mini-stars"><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star mini-star" style="color:#d1d5db"></i><span style="font-size:0.8rem;font-weight:600;color:#0D1B2A;margin-left:3px">4.2</span></div>
-        <div class="mini-bonus">Bonus: <strong>C$20 Free Play</strong></div>
-        <a href="reviews.html" class="mini-btn">Read Review →</a>
+        <div class="mini-stars"><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-filled mini-star"></i><i class="ti ti-star-half mini-star"></i><i class="ti ti-star mini-star" style="color:#d1d5db"></i><span style="font-size:0.8rem;font-weight:600;color:#0D1B2A;margin-left:3px">7.5/10</span></div>
+        <div class="mini-bonus">Bonus: <strong>C$20 on first deposit</strong></div>
+        <a href="reviews/play-alberta.html" class="mini-btn">Read Review →</a>
       </div>
     </div>
     <div style="text-align:center"><a href="reviews.html" class="btn-outline">See all casino reviews <i class="ti ti-arrow-right"></i></a></div>
@@ -217,7 +303,7 @@ img{max-width:100%}
   <div class="container">
     <div class="section-eyebrow">Alberta iGaming Timeline</div>
     <div class="section-title">How regulation is unfolding</div>
-    <p class="section-sub">Alberta is modelling its market on Ontario — here's what's happened and what's coming for players.</p>
+    <p class="section-sub">Alberta is modelling its market on Ontario - here's what's happened and what's coming for players.</p>
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-date">May 2025</div>
@@ -253,7 +339,7 @@ img{max-width:100%}
         <div class="news-card-img" style="background:#EFF6FF">📋</div>
         <div class="news-card-body">
           <div class="news-tag" style="color:#1e6ab8">Regulation</div>
-          <div class="news-title">43 operators registered for Alberta's July 13 launch — here's who's confirmed</div>
+          <div class="news-title">43 operators registered for Alberta's July 13 launch - here's who's confirmed</div>
           <div class="news-meta"><i class="ti ti-clock" style="font-size:11px;margin-right:3px"></i>June 16, 2026 · 4 min read</div>
         </div>
       </a>
@@ -261,7 +347,7 @@ img{max-width:100%}
         <div class="news-card-img" style="background:#EAF3DE">🛡️</div>
         <div class="news-card-body">
           <div class="news-tag" style="color:#27500A">Player Guide</div>
-          <div class="news-title">Alberta's self-exclusion system explained — and why it's better than Ontario's</div>
+          <div class="news-title">Alberta's self-exclusion system explained - and why it's better than Ontario's</div>
           <div class="news-meta"><i class="ti ti-clock" style="font-size:11px;margin-right:3px"></i>June 14, 2026 · 5 min read</div>
         </div>
       </a>
@@ -269,7 +355,7 @@ img{max-width:100%}
         <div class="news-card-img" style="background:#FAEEDA">⚽</div>
         <div class="news-card-body">
           <div class="news-tag" style="color:#633806">Regulation</div>
-          <div class="news-title">Alberta missed the World Cup window — but July 13 is still a landmark date</div>
+          <div class="news-title">Alberta missed the World Cup window - but July 13 is still a landmark date</div>
           <div class="news-meta"><i class="ti ti-clock" style="font-size:11px;margin-right:3px"></i>June 12, 2026 · 3 min read</div>
         </div>
       </a>
@@ -285,7 +371,7 @@ img{max-width:100%}
   </div>
   <div class="trust-grid">
     <div class="trust-item"><div class="trust-icon"><i class="ti ti-shield-check"></i></div><div class="trust-title">AGLC Tracking</div><div class="trust-desc">We monitor every operator's registration status in real time as the market opens.</div></div>
-    <div class="trust-item"><div class="trust-icon"><i class="ti ti-map-pin"></i></div><div class="trust-title">Alberta-Specific</div><div class="trust-desc">Every review is written for Alberta players — not repurposed from Ontario or offshore guides.</div></div>
+    <div class="trust-item"><div class="trust-icon"><i class="ti ti-map-pin"></i></div><div class="trust-title">Alberta-Specific</div><div class="trust-desc">Every review is written for Alberta players - not repurposed from Ontario or offshore guides.</div></div>
     <div class="trust-item"><div class="trust-icon"><i class="ti ti-eye"></i></div><div class="trust-title">Independently Tested</div><div class="trust-desc">We test withdrawals, bonuses, and support ourselves before recommending any casino.</div></div>
     <div class="trust-item"><div class="trust-icon"><i class="ti ti-heart"></i></div><div class="trust-title">Responsible Gambling</div><div class="trust-desc">Every page links to Alberta's self-exclusion system and problem gambling resources.</div></div>
   </div>
@@ -434,8 +520,8 @@ setInterval(updateCountdown,1000);
             <span class="casino-name">BetCity Alberta</span>
             <span class="reg-badge aglc"><i class="ti ti-circle-check"></i> AGLC Registered</span>
           </div>
-          <div class="stars"><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-half star"></i><span class="rating-num">4.8</span><span class="rating-count">(312 reviews)</span></div>
-          <p class="card-desc">One of the first operators to complete AGLC registration ahead of the July 13 launch. Strong game library, fast CAD payouts, and a responsible gambling suite built to Alberta's new standards.</p>
+          <div class="stars"><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-half star"></i><span class="rating-num">9.2</span><span class="rating-count">/10</span></div>
+          <p class="card-desc">One of the first operators to complete AGLC registration. Fast 24-hour Interac payouts, Evolution live casino, and a C$1,000 welcome bonus built specifically for the Canadian market.</p>
           <div class="key-facts">
             <div class="fact"><span class="fact-label">Welcome Bonus</span><span class="fact-value">C$1,000 + 200 FS</span></div>
             <div class="fact"><span class="fact-label">Min. Deposit</span><span class="fact-value">C$10</span></div>
@@ -448,77 +534,77 @@ setInterval(updateCountdown,1000);
         </div>
         <div class="card-cta">
           <a href="#" class="btn-visit">Visit Casino</a>
-          <a href="#" class="btn-review">Full Review</a>
+          <a href="reviews/betcity-alberta.html" class="btn-review">Full Review</a>
         </div>
       </div>
       <div class="card-footer">
         <span class="card-tag">AGLC Registered</span><span class="card-tag">Live Casino</span><span class="card-tag">Sports Betting</span><span class="card-tag">Interac</span>
-        <span class="expert-note"><i class="ti ti-star" style="font-size:11px;color:#C9973A"></i> Editor's Choice — July 2026</span>
+        <span class="expert-note"><i class="ti ti-star" style="font-size:11px;color:#C9973A"></i> Editor's Choice - July 2026</span>
       </div>
     </div>
 
     <div class="casino-card">
       <div class="card-inner">
-        <div class="rank-logo"><span class="rank">#2</span><div class="logo-box" style="background:#1a8c6a">SB</div></div>
+        <div class="rank-logo"><span class="rank">#2</span><div class="logo-box" style="background:#e4002b">MGM</div></div>
         <div>
           <div class="card-top">
-            <span class="casino-name">SpinBear Casino</span>
-            <span class="reg-badge pending"><i class="ti ti-clock"></i> AGLC Pending</span>
+            <span class="casino-name">BetMGM Alberta</span>
+            <span class="reg-badge aglc"><i class="ti ti-circle-check"></i> AGLC Registered</span>
           </div>
-          <div class="stars"><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star star empty"></i><span class="rating-num">4.5</span><span class="rating-count">(198 reviews)</span></div>
-          <p class="card-desc">Already licensed in Ontario, SpinBear is mid-way through AGLC registration and expected to go live in Alberta at launch. Excellent slot portfolio and one of the best mobile apps in Canada.</p>
+          <div class="stars"><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-half star"></i><span class="rating-num">9.4</span><span class="rating-count">/10</span></div>
+          <p class="card-desc">The most complete casino product at Alberta launch. 9,500+ games, live streaming from MGM Grand Las Vegas, a full sportsbook and poker room, and MGM Rewards redeemable at 20+ resorts.</p>
           <div class="key-facts">
-            <div class="fact"><span class="fact-label">Welcome Bonus</span><span class="fact-value">C$750 + 150 FS</span></div>
-            <div class="fact"><span class="fact-label">Min. Deposit</span><span class="fact-value">C$20</span></div>
-            <div class="fact"><span class="fact-label">Payout Speed</span><span class="fact-value">48 hours</span></div>
-            <div class="fact"><span class="fact-label">Games</span><span class="fact-value">2,400+</span></div>
+            <div class="fact"><span class="fact-label">Welcome Bonus</span><span class="fact-value">C$3,000 + C$100 free</span></div>
+            <div class="fact"><span class="fact-label">Min. Deposit</span><span class="fact-value">C$10</span></div>
+            <div class="fact"><span class="fact-label">Payout Speed</span><span class="fact-value">24-72 hours</span></div>
+            <div class="fact"><span class="fact-label">Games</span><span class="fact-value">9,500+</span></div>
           </div>
-          <div class="score-bar"><span class="score-label">Bonuses</span><div class="score-track"><div class="score-fill" style="width:85%"></div></div><span class="score-val">8.5</span></div>
-          <div class="score-bar"><span class="score-label">Safety</span><div class="score-track"><div class="score-fill" style="width:89%"></div></div><span class="score-val">8.9</span></div>
-          <div class="score-bar"><span class="score-label">Games</span><div class="score-track"><div class="score-fill" style="width:94%"></div></div><span class="score-val">9.4</span></div>
+          <div class="score-bar"><span class="score-label">Bonuses</span><div class="score-track"><div class="score-fill" style="width:91%"></div></div><span class="score-val">9.1</span></div>
+          <div class="score-bar"><span class="score-label">Safety</span><div class="score-track"><div class="score-fill" style="width:98%"></div></div><span class="score-val">9.8</span></div>
+          <div class="score-bar"><span class="score-label">Games</span><div class="score-track"><div class="score-fill" style="width:96%"></div></div><span class="score-val">9.6</span></div>
         </div>
         <div class="card-cta">
           <a href="#" class="btn-visit">Visit Casino</a>
-          <a href="#" class="btn-review">Full Review</a>
+          <a href="reviews/betmgm-alberta.html" class="btn-review">Full Review</a>
         </div>
       </div>
       <div class="card-footer">
-        <span class="card-tag">AGLC Pending</span><span class="card-tag">2,400+ Slots</span><span class="card-tag">Mobile App</span><span class="card-tag">Interac e-Transfer</span>
+        <span class="card-tag">AGLC Registered</span><span class="card-tag">9,500+ Games</span><span class="card-tag">Live from Las Vegas</span><span class="card-tag">MGM Rewards</span><span class="card-tag">Poker</span>
       </div>
     </div>
 
     <div class="casino-card">
       <div class="card-inner">
-        <div class="rank-logo"><span class="rank">#3</span><div class="logo-box" style="background:#7c3aed">PA</div></div>
+        <div class="rank-logo"><span class="rank">#3</span><div class="logo-box" style="background:#005eb8">PA</div></div>
         <div>
           <div class="card-top">
             <span class="casino-name">Play Alberta</span>
             <span class="reg-badge aglc"><i class="ti ti-shield-check"></i> Government Operated</span>
           </div>
-          <div class="stars"><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star star empty"></i><span class="rating-num">4.2</span><span class="rating-count">(541 reviews)</span></div>
-          <p class="card-desc">Alberta's only fully licensed platform prior to July 13. Run by the AGLC, it's the safest option and comes with a centralised self-exclusion system. Smaller game library than private operators.</p>
+          <div class="stars"><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-filled star"></i><i class="ti ti-star-half star"></i><i class="ti ti-star star empty"></i><span class="rating-num">7.5</span><span class="rating-count">/10</span></div>
+          <p class="card-desc">Alberta's only fully licensed platform before July 13, operated directly by the AGLC. The safest choice in the province - perfect 10 for safety - but limited games, no live casino, and a modest bonus.</p>
           <div class="key-facts">
-            <div class="fact"><span class="fact-label">Welcome Bonus</span><span class="fact-value">C$20 Free Play</span></div>
+            <div class="fact"><span class="fact-label">Welcome Bonus</span><span class="fact-value">C$20 on first deposit</span></div>
             <div class="fact"><span class="fact-label">Min. Deposit</span><span class="fact-value">C$10</span></div>
-            <div class="fact"><span class="fact-label">Payout Speed</span><span class="fact-value">3–5 days</span></div>
+            <div class="fact"><span class="fact-label">Payout Speed</span><span class="fact-value">3-5 days</span></div>
             <div class="fact"><span class="fact-label">Games</span><span class="fact-value">400+</span></div>
           </div>
-          <div class="score-bar"><span class="score-label">Bonuses</span><div class="score-track"><div class="score-fill" style="width:55%"></div></div><span class="score-val">5.5</span></div>
+          <div class="score-bar"><span class="score-label">Bonuses</span><div class="score-track"><div class="score-fill" style="width:65%"></div></div><span class="score-val">6.5</span></div>
           <div class="score-bar"><span class="score-label">Safety</span><div class="score-track"><div class="score-fill" style="width:100%"></div></div><span class="score-val">10</span></div>
-          <div class="score-bar"><span class="score-label">Games</span><div class="score-track"><div class="score-fill" style="width:58%"></div></div><span class="score-val">5.8</span></div>
+          <div class="score-bar"><span class="score-label">Games</span><div class="score-track"><div class="score-fill" style="width:68%"></div></div><span class="score-val">6.8</span></div>
         </div>
         <div class="card-cta">
-          <a href="#" class="btn-visit">Visit Casino</a>
-          <a href="#" class="btn-review">Full Review</a>
+          <a href="https://www.playalberta.ca" target="_blank" rel="noopener" class="btn-visit">Visit Casino</a>
+          <a href="reviews/play-alberta.html" class="btn-review">Full Review</a>
         </div>
       </div>
       <div class="card-footer">
-        <span class="card-tag">Government Operated</span><span class="card-tag">Self-Exclusion</span><span class="card-tag">100% Safe</span>
+        <span class="card-tag">Government Operated</span><span class="card-tag">Live Now</span><span class="card-tag">Self-Exclusion</span><span class="card-tag">100% Safe</span>
       </div>
     </div>
 
     <div class="disclaimer">
-      <strong><i class="ti ti-info-circle"></i> Regulation notice:</strong> Alberta's private iGaming market opens July 13, 2026. AGLC registration status shown above reflects publicly available information and may change. Always verify a casino's licence status at alberta.ca before depositing. AlbertaCasino.live may earn a commission from affiliate links on this page. Gambling can be addictive — if you need help, contact the Problem Gambling Helpline: 1-800-522-4700.
+      <strong><i class="ti ti-info-circle"></i> Regulation notice:</strong> Alberta's private iGaming market opens July 13, 2026. AGLC registration status shown above reflects publicly available information and may change. Always verify a casino's licence status at alberta.ca before depositing. AlbertaCasino.live may earn a commission from affiliate links on this page. Gambling can be addictive - if you need help, contact the Problem Gambling Helpline: 1-800-522-4700.
     </div>
   </div>
 </div>
@@ -588,7 +674,7 @@ setInterval(updateCountdown,1000);
 
 <div class="hero-sm">
   <h1>Alberta Casino News</h1>
-  <p>Regulation updates, operator news, and player guides — all focused on Alberta's new iGaming market.</p>
+  <p>Regulation updates, operator news, and player guides - all focused on Alberta's new iGaming market.</p>
 </div>
 
 <div class="container">
@@ -607,7 +693,7 @@ setInterval(updateCountdown,1000);
       <div class="featured-img" style="background:#EFF6FF">📋</div>
       <div class="featured-body">
         <div class="featured-label" style="color:#1e6ab8">⭐ Featured · Regulation</div>
-        <div class="featured-title">43 operators registered for Alberta's July 13 launch — here's who's confirmed</div>
+        <div class="featured-title">43 operators registered for Alberta's July 13 launch - here's who's confirmed</div>
         <div class="featured-excerpt">DraftKings, FanDuel, BetMGM, Caesars and 39 more are now registered with the AGLC. We break down exactly who's confirmed, who's pending, and what it means for Alberta players heading into launch day.</div>
         <div class="featured-meta"><i class="ti ti-clock" style="font-size:11px;margin-right:3px"></i>June 16, 2026 · 4 min read</div>
         <span class="btn-primary" style="font-size:0.82rem;padding:0.55rem 1rem">Read article <i class="ti ti-arrow-right"></i></span>
@@ -634,7 +720,7 @@ setInterval(updateCountdown,1000);
         <div class="news-card-img" style="background:#FAEEDA">⚽</div>
         <div class="news-card-body">
           <div class="news-label" style="color:#633806">Regulation</div>
-          <div class="news-title">Alberta missed the World Cup window — but July 13 is still a landmark date</div>
+          <div class="news-title">Alberta missed the World Cup window - but July 13 is still a landmark date</div>
           <div class="news-meta"><i class="ti ti-clock" style="font-size:11px;margin-right:3px"></i>June 12, 2026 · 3 min read</div>
         </div>
       </a>
@@ -652,7 +738,7 @@ setInterval(updateCountdown,1000);
         <div class="news-card-img" style="background:#EAF3DE">🛡️</div>
         <div class="news-card-body">
           <div class="news-label" style="color:#27500A">Player Guide</div>
-          <div class="news-title">Alberta's self-exclusion system explained — and why it's better than Ontario's</div>
+          <div class="news-title">Alberta's self-exclusion system explained - and why it's better than Ontario's</div>
           <div class="news-meta"><i class="ti ti-clock" style="font-size:11px;margin-right:3px"></i>June 14, 2026 · 5 min read</div>
         </div>
       </a>
@@ -660,7 +746,7 @@ setInterval(updateCountdown,1000);
         <div class="news-card-img" style="background:#F5F7FA">📖</div>
         <div class="news-card-body">
           <div class="news-label" style="color:#9ca3af">Coming Soon</div>
-          <div class="news-title">How to read Alberta casino bonus terms — a plain-language guide</div>
+          <div class="news-title">How to read Alberta casino bonus terms - a plain-language guide</div>
           <div class="news-meta">Publishing soon</div>
         </div>
       </div>
@@ -671,7 +757,7 @@ setInterval(updateCountdown,1000);
     <!-- Newsletter -->
     <div class="newsletter">
       <h3>Get Alberta casino news in your inbox</h3>
-      <p>We'll send you operator confirmations, bonus alerts, and regulation updates — nothing else.</p>
+      <p>We'll send you operator confirmations, bonus alerts, and regulation updates - nothing else.</p>
       <div class="newsletter-form">
         <input type="email" class="newsletter-input" placeholder="your@email.com">
         <button class="newsletter-btn">Subscribe</button>
@@ -756,7 +842,7 @@ setInterval(updateCountdown,1000);
   <div class="container">
     <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="../news.html">News</a><span>›</span>43 operators registered</div>
     <div class="article-label">Regulation Update</div>
-    <h1>43 operators registered for Alberta's July 13 launch — here's who's confirmed</h1>
+    <h1>43 operators registered for Alberta's July 13 launch - here's who's confirmed</h1>
     <div class="article-meta">
       <span class="meta-item"><i class="ti ti-calendar"></i>June 16, 2026</span>
       <span class="meta-item"><i class="ti ti-clock"></i>4 min read</span>
@@ -774,12 +860,12 @@ setInterval(updateCountdown,1000);
       <p>That's a significant field for a market opening day. For context, Ontario took years to reach a comparable operator count after its 2022 launch. Alberta is arriving with a competitive market essentially from day one.</p>
 
       <div class="key-takeaway">
-        <p><strong>Key takeaway for players:</strong> More operators at launch means more competition for your business. Expect aggressive welcome bonuses in the first weeks of July — and use our <a href="../reviews.html">reviews page</a> to compare them before you deposit.</p>
+        <p><strong>Key takeaway for players:</strong> More operators at launch means more competition for your business. Expect aggressive welcome bonuses in the first weeks of July - and use our <a href="../reviews.html">reviews page</a> to compare them before you deposit.</p>
       </div>
 
       <h2>Who's confirmed so far</h2>
 
-      <p>Operators pay a one-time application fee of $50,000 plus an annual registration fee of $150,000 per site. That cost of entry helps explain why the confirmed list skews toward established North American brands rather than smaller boutique operators — at least for now.</p>
+      <p>Operators pay a one-time application fee of $50,000 plus an annual registration fee of $150,000 per site. That cost of entry helps explain why the confirmed list skews toward established North American brands rather than smaller boutique operators - at least for now.</p>
 
       <table class="operator-table">
         <thead>
@@ -803,21 +889,21 @@ setInterval(updateCountdown,1000);
 
       <h2>Notable newcomers</h2>
 
-      <p>One of the more interesting additions is <strong>DAZN Bet</strong>. The sports streaming platform has already received an iGaming operator licence from Ontario's regulator and was listed as a registered Alberta operator as of May 29 — positioning it to enter both major Canadian iGaming markets simultaneously. DAZN has a built-in sports audience that no other operator can match, which could make it a serious player for sports bettors specifically.</p>
+      <p>One of the more interesting additions is <strong>DAZN Bet</strong>. The sports streaming platform has already received an iGaming operator licence from Ontario's regulator and was listed as a registered Alberta operator as of May 29 - positioning it to enter both major Canadian iGaming markets simultaneously. DAZN has a built-in sports audience that no other operator can match, which could make it a serious player for sports bettors specifically.</p>
 
-      <p>On the content supply side, Swedish game developer <strong>Play'n GO</strong> has received a gaming supplier licence from the AGLC, making Alberta its third regulated Canadian jurisdiction. This means Alberta players will have access to Play'n GO's full catalogue — including Book of Dead and Sweet Alchemy — from day one, rather than waiting for post-launch content rollouts.</p>
+      <p>On the content supply side, Swedish game developer <strong>Play'n GO</strong> has received a gaming supplier licence from the AGLC, making Alberta its third regulated Canadian jurisdiction. This means Alberta players will have access to Play'n GO's full catalogue - including Book of Dead and Sweet Alchemy - from day one, rather than waiting for post-launch content rollouts.</p>
 
       <h2>Multiple brands per operator</h2>
 
       <p>Several operators are planning to launch more than one brand in Alberta. Caesars alone is bringing three: Caesars Sportsbook, Caesars Palace Online Casino, and Horseshoe Online Casino. Bally's Canada is preparing both BallyBet Sportsbook and Casino alongside the Monopoly Casino brand.</p>
 
-      <p>This mirrors what happened in Ontario at launch and means players will have significantly more choice than the headline count of 43 operators suggests — the number of live betting sites will be higher than the number of registered companies.</p>
+      <p>This mirrors what happened in Ontario at launch and means players will have significantly more choice than the headline count of 43 operators suggests - the number of live betting sites will be higher than the number of registered companies.</p>
 
       <h2>What about the October extension?</h2>
 
-      <p>The AGLC has confirmed it may grant case-by-case extensions of up to three months — until October 13 — for operators that can demonstrate a path to compliance that was genuinely unachievable before July 13. This means the Alberta market will continue filling out through the autumn, with NHL and NFL season launches providing a major commercial incentive for operators still working through registration.</p>
+      <p>The AGLC has confirmed it may grant case-by-case extensions of up to three months - until October 13 - for operators that can demonstrate a path to compliance that was genuinely unachievable before July 13. This means the Alberta market will continue filling out through the autumn, with NHL and NFL season launches providing a major commercial incentive for operators still working through registration.</p>
 
-      <p>For players, this is worth knowing: if your preferred operator isn't live on July 13, it may still arrive within weeks. Check back here — we'll publish a live tracker on launch day.</p>
+      <p>For players, this is worth knowing: if your preferred operator isn't live on July 13, it may still arrive within weeks. Check back here - we'll publish a live tracker on launch day.</p>
 
       <div class="article-footer">
         <div class="disclaimer">
@@ -829,7 +915,7 @@ setInterval(updateCountdown,1000);
 
     <aside class="sidebar">
       <div class="reg-summary">
-        <div class="reg-summary-title">Alberta iGaming — at a glance</div>
+        <div class="reg-summary-title">Alberta iGaming - at a glance</div>
         <div class="reg-stat"><span class="reg-stat-label">Launch date</span><span class="reg-stat-val">July 13, 2026</span></div>
         <div class="reg-stat"><span class="reg-stat-label">Registered operators</span><span class="reg-stat-val">43</span></div>
         <div class="reg-stat"><span class="reg-stat-label">Application fee</span><span class="reg-stat-val">$50,000</span></div>
@@ -846,7 +932,7 @@ setInterval(updateCountdown,1000);
         </a>
         <a href="world-cup-window.html" class="sidebar-link">
           <span class="sidebar-link-emoji">⚽</span>
-          <div><div class="sidebar-link-title">Alberta missed the World Cup window — but July 13 is still a landmark</div><div class="sidebar-link-meta">Regulation · 3 min read</div></div>
+          <div><div class="sidebar-link-title">Alberta missed the World Cup window - but July 13 is still a landmark</div><div class="sidebar-link-meta">Regulation · 3 min read</div></div>
         </a>
         <a href="../reviews.html" class="sidebar-link">
           <span class="sidebar-link-emoji">🏆</span>
@@ -934,7 +1020,7 @@ setInterval(updateCountdown,1000);
   <div class="container">
     <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="../news.html">News</a><span>›</span>Self-exclusion explained</div>
     <div class="article-label">Player Guide</div>
-    <h1>Alberta's self-exclusion system explained — and why it's better than Ontario's</h1>
+    <h1>Alberta's self-exclusion system explained - and why it's better than Ontario's</h1>
     <div class="article-meta">
       <span class="meta-item"><i class="ti ti-calendar"></i>June 14, 2026</span>
       <span class="meta-item"><i class="ti ti-clock"></i>5 min read</span>
@@ -948,20 +1034,20 @@ setInterval(updateCountdown,1000);
 
       <p>One of the most important player protections built into Alberta's new iGaming framework is also one of the least talked about: a centralised self-exclusion system that covers every licensed operator from the very first day the market opens.</p>
 
-      <p>At launch on July 13, system-wide self-exclusion and financial and time-based limit tools will be available to Albertans. Licensed operators will also be required to provide players with activity statements and take action when signs of problem gambling are identified. All operators must integrate their platforms with the AGLC's centralised self-exclusion system before going live — it's not optional.</p>
+      <p>At launch on July 13, system-wide self-exclusion and financial and time-based limit tools will be available to Albertans. Licensed operators will also be required to provide players with activity statements and take action when signs of problem gambling are identified. All operators must integrate their platforms with the AGLC's centralised self-exclusion system before going live - it's not optional.</p>
 
       <div class="key-takeaway">
-        <p><strong>The short version:</strong> If you register for self-exclusion in Alberta, every single AGLC-licensed casino and sportsbook is blocked simultaneously — including land-based casinos. You only have to register once.</p>
+        <p><strong>The short version:</strong> If you register for self-exclusion in Alberta, every single AGLC-licensed casino and sportsbook is blocked simultaneously - including land-based casinos. You only have to register once.</p>
       </div>
 
-      <h2>Why this matters — the Ontario comparison</h2>
+      <h2>Why this matters - the Ontario comparison</h2>
 
-      <p>In Ontario — Canada's first regulated iGaming province — centralised self-exclusion was not available at launch in 2022. Players who wanted to exclude themselves had to do so operator by operator, a process that was easy to circumvent simply by signing up with a different brand.</p>
+      <p>In Ontario - Canada's first regulated iGaming province - centralised self-exclusion was not available at launch in 2022. Players who wanted to exclude themselves had to do so operator by operator, a process that was easy to circumvent simply by signing up with a different brand.</p>
 
       <div class="compare-grid">
         <div class="compare-col ab">
           <h3 class="ab">Alberta (from July 13)</h3>
-          <div class="compare-item"><i class="ti ti-check check"></i>Centralised — one registration covers all operators</div>
+          <div class="compare-item"><i class="ti ti-check check"></i>Centralised - one registration covers all operators</div>
           <div class="compare-item"><i class="ti ti-check check"></i>Covers online and land-based gambling</div>
           <div class="compare-item"><i class="ti ti-check check"></i>Active from day one of the market</div>
           <div class="compare-item"><i class="ti ti-check check"></i>RG Check accreditation mandatory for all operators</div>
@@ -969,15 +1055,15 @@ setInterval(updateCountdown,1000);
         </div>
         <div class="compare-col on">
           <h3 class="on">Ontario (launched 2022)</h3>
-          <div class="compare-item"><i class="ti ti-x cross"></i>No centralised system at launch — operator by operator</div>
+          <div class="compare-item"><i class="ti ti-x cross"></i>No centralised system at launch - operator by operator</div>
           <div class="compare-item"><i class="ti ti-x cross"></i>Online and land-based not integrated</div>
-          <div class="compare-item"><i class="ti ti-x cross"></i>Centralised system only arriving in 2026 — four years late</div>
+          <div class="compare-item"><i class="ti ti-x cross"></i>Centralised system only arriving in 2026 - four years late</div>
           <div class="compare-item"><i class="ti ti-check check"></i>RG Check required within 2 years of launch</div>
           <div class="compare-item"><i class="ti ti-check check"></i>Deposit and time-out tools available</div>
         </div>
       </div>
 
-      <p>Ontario's iGaming regulator has publicly acknowledged the gap, with its CEO describing the situation as "overdue." Alberta learned from that experience and built centralised self-exclusion into the framework from the start — it's written directly into the AGLC's operator requirements as a go-live condition, not an afterthought.</p>
+      <p>Ontario's iGaming regulator has publicly acknowledged the gap, with its CEO describing the situation as "overdue." Alberta learned from that experience and built centralised self-exclusion into the framework from the start - it's written directly into the AGLC's operator requirements as a go-live condition, not an afterthought.</p>
 
       <h2>How to use Alberta's self-exclusion system</h2>
 
@@ -985,8 +1071,8 @@ setInterval(updateCountdown,1000);
 
       <div class="steps">
         <div class="step"><div class="step-num">1</div><div class="step-body"><div class="step-title">Register at the AGLC self-exclusion portal</div><div class="step-desc">Visit the AGLC's website and complete the self-exclusion form. You'll need to verify your identity. The process takes around 10 minutes.</div></div></div>
-        <div class="step"><div class="step-num">2</div><div class="step-body"><div class="step-title">Choose your exclusion period</div><div class="step-desc">Options typically include 3 months, 6 months, 1 year, 3 years, or permanent exclusion. You can always extend — but you cannot shorten an exclusion period once it's set.</div></div></div>
-        <div class="step"><div class="step-num">3</div><div class="step-body"><div class="step-title">Exclusion is applied across all platforms</div><div class="step-desc">Every AGLC-registered operator is notified and must block your account. This happens automatically — you don't need to contact each operator separately.</div></div></div>
+        <div class="step"><div class="step-num">2</div><div class="step-body"><div class="step-title">Choose your exclusion period</div><div class="step-desc">Options typically include 3 months, 6 months, 1 year, 3 years, or permanent exclusion. You can always extend - but you cannot shorten an exclusion period once it's set.</div></div></div>
+        <div class="step"><div class="step-num">3</div><div class="step-body"><div class="step-title">Exclusion is applied across all platforms</div><div class="step-desc">Every AGLC-registered operator is notified and must block your account. This happens automatically - you don't need to contact each operator separately.</div></div></div>
         <div class="step"><div class="step-num">4</div><div class="step-body"><div class="step-title">Land-based casinos are also covered</div><div class="step-desc">Unlike Ontario, Alberta's system covers both online and in-person gambling venues from a single registration.</div></div></div>
       </div>
 
@@ -994,15 +1080,15 @@ setInterval(updateCountdown,1000);
 
       <p>Beyond self-exclusion, every AGLC-licensed operator must have these tools active from day one:</p>
 
-      <p><strong>Deposit limits</strong> — you can set daily, weekly, or monthly deposit caps. Operators cannot allow you to exceed them.</p>
+      <p><strong>Deposit limits</strong> - you can set daily, weekly, or monthly deposit caps. Operators cannot allow you to exceed them.</p>
 
-      <p><strong>Time-out periods</strong> — short breaks of 24 hours to 30 days, initiated instantly from your account settings.</p>
+      <p><strong>Time-out periods</strong> - short breaks of 24 hours to 30 days, initiated instantly from your account settings.</p>
 
-      <p><strong>Cooling-off periods</strong> — longer pauses (up to 6 weeks) that prevent you from reversing the decision in a moment of impulse.</p>
+      <p><strong>Cooling-off periods</strong> - longer pauses (up to 6 weeks) that prevent you from reversing the decision in a moment of impulse.</p>
 
-      <p><strong>Activity statements</strong> — regular summaries of your deposits, withdrawals, wins, and losses. Operators must provide these and must reach out if your patterns suggest problem gambling.</p>
+      <p><strong>Activity statements</strong> - regular summaries of your deposits, withdrawals, wins, and losses. Operators must provide these and must reach out if your patterns suggest problem gambling.</p>
 
-      <p>The Alberta iGaming Corporation has also made RG Check accreditation — a certification from the Responsible Gambling Council — a mandatory requirement for every operator, not just a goal. It must be maintained in good standing while they operate in the province.</p>
+      <p>The Alberta iGaming Corporation has also made RG Check accreditation - a certification from the Responsible Gambling Council - a mandatory requirement for every operator, not just a goal. It must be maintained in good standing while they operate in the province.</p>
 
       <h2>The bottom line</h2>
 
@@ -1012,7 +1098,7 @@ setInterval(updateCountdown,1000);
         <h3>Need help right now?</h3>
         <p>If gambling is causing problems, support is available 24 hours a day.</p>
         <div class="help-number">1-800-522-4700</div>
-        <p style="color:rgba(255,255,255,0.4);font-size:0.78rem;margin-top:0.5rem;margin-bottom:0">Problem Gambling Helpline — free, confidential</p>
+        <p style="color:rgba(255,255,255,0.4);font-size:0.78rem;margin-top:0.5rem;margin-bottom:0">Problem Gambling Helpline - free, confidential</p>
       </div>
 
       <div class="article-footer">
@@ -1123,7 +1209,7 @@ setInterval(updateCountdown,1000);
   <div class="container">
     <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="../news.html">News</a><span>›</span>World Cup window</div>
     <div class="article-label">Regulation Update</div>
-    <h1>Alberta missed the World Cup window — but July 13 is still a landmark date</h1>
+    <h1>Alberta missed the World Cup window - but July 13 is still a landmark date</h1>
     <div class="article-meta">
       <span class="meta-item"><i class="ti ti-calendar"></i>June 12, 2026</span>
       <span class="meta-item"><i class="ti ti-clock"></i>3 min read</span>
@@ -1135,23 +1221,23 @@ setInterval(updateCountdown,1000);
   <div class="article-layout">
     <div class="article-body">
 
-      <p>The 2026 FIFA World Cup kicked off this week across Canada, the US, and Mexico — and Alberta's regulated casino and sports betting market won't be live for it. That timing has drawn criticism from industry insiders, and it's worth understanding what happened, why it matters, and what players should actually expect on July 13.</p>
+      <p>The 2026 FIFA World Cup kicked off this week across Canada, the US, and Mexico - and Alberta's regulated casino and sports betting market won't be live for it. That timing has drawn criticism from industry insiders, and it's worth understanding what happened, why it matters, and what players should actually expect on July 13.</p>
 
       <div class="key-takeaway">
-        <p><strong>Bottom line for players:</strong> July 13 is still the date to bookmark. The World Cup final is July 19 — six days after launch — and the NHL and NFL seasons follow in the autumn. The best commercial moment for Alberta's market is still ahead of it.</p>
+        <p><strong>Bottom line for players:</strong> July 13 is still the date to bookmark. The World Cup final is July 19 - six days after launch - and the NHL and NFL seasons follow in the autumn. The best commercial moment for Alberta's market is still ahead of it.</p>
       </div>
 
       <h2>What the industry is saying</h2>
 
-      <p>The new regulated Alberta market launches on July 13 — just six days before the World Cup final on July 19. Industry veterans have argued the province missed a significant opportunity by not going live earlier, which would have allowed licensed operators to compete with offshore sites during the tournament's peak betting weeks.</p>
+      <p>The new regulated Alberta market launches on July 13 - just six days before the World Cup final on July 19. Industry veterans have argued the province missed a significant opportunity by not going live earlier, which would have allowed licensed operators to compete with offshore sites during the tournament's peak betting weeks.</p>
 
       <p>The frustration is understandable from an operator's perspective. The World Cup, held across three North American host nations this year, is the single biggest global sports betting event. Operators who have paid $50,000 in application fees and $150,000 in annual registration costs to enter Alberta were watching from the sidelines while unregulated offshore sites absorbed that betting volume unrestricted.</p>
 
       <h2>Why the delay happened</h2>
 
-      <p>The bottleneck wasn't a lack of interest — 43 operators are now registered, with strong demand from across the industry. The delay was driven by the compliance process itself, particularly the requirement for every operator to integrate their platform with the AGLC's centralised self-exclusion system before going live. That integration takes time, and the AGLC prioritised getting it right over hitting a sporting event deadline.</p>
+      <p>The bottleneck wasn't a lack of interest - 43 operators are now registered, with strong demand from across the industry. The delay was driven by the compliance process itself, particularly the requirement for every operator to integrate their platform with the AGLC's centralised self-exclusion system before going live. That integration takes time, and the AGLC prioritised getting it right over hitting a sporting event deadline.</p>
 
-      <p>Alberta's Minister of Service Dale Nally initially wanted to launch before summer. The AGLC has since confirmed it may grant extensions of up to three months — until October 13 — for operators demonstrating a path to compliance that was genuinely unachievable before the initial deadline.</p>
+      <p>Alberta's Minister of Service Dale Nally initially wanted to launch before summer. The AGLC has since confirmed it may grant extensions of up to three months - until October 13 - for operators demonstrating a path to compliance that was genuinely unachievable before the initial deadline.</p>
 
       <h2>The calendar from here</h2>
 
@@ -1169,7 +1255,7 @@ setInterval(updateCountdown,1000);
         <div class="tli">
           <div class="tli-date">July 19, 2026</div>
           <div class="tli-line"><div class="tli-dot"></div><div class="tli-connector"></div></div>
-          <div class="tli-content"><div class="tli-title">World Cup final</div><div class="tli-desc">Six days after launch — the biggest single betting event of the tournament, now captured by licensed operators.</div></div>
+          <div class="tli-content"><div class="tli-title">World Cup final</div><div class="tli-desc">Six days after launch - the biggest single betting event of the tournament, now captured by licensed operators.</div></div>
         </div>
         <div class="tli">
           <div class="tli-date">Oct 2026</div>
@@ -1185,9 +1271,9 @@ setInterval(updateCountdown,1000);
 
       <h2>What hasn't been missed</h2>
 
-      <p>The World Cup final landing six days after launch is not nothing — it's a significant event that licensed Alberta operators will now be able to market around. More importantly, the NHL and NFL regular seasons both begin in October, historically the biggest Canadian sports betting periods of the year. Alberta's market will be fully operational, with a growing roster of operators, well before either league tips off.</p>
+      <p>The World Cup final landing six days after launch is not nothing - it's a significant event that licensed Alberta operators will now be able to market around. More importantly, the NHL and NFL regular seasons both begin in October, historically the biggest Canadian sports betting periods of the year. Alberta's market will be fully operational, with a growing roster of operators, well before either league tips off.</p>
 
-      <p>On the revenue side, the province's goals are long-term. Alberta retains 20% of iGaming gross gaming revenue, with 2% allocated to First Nations and 1% to responsible gambling research and treatment. The province's aim has never been to maximise a single tournament — it's to redirect the billions flowing to offshore platforms into a regulated system that keeps money and protections in Alberta.</p>
+      <p>On the revenue side, the province's goals are long-term. Alberta retains 20% of iGaming gross gaming revenue, with 2% allocated to First Nations and 1% to responsible gambling research and treatment. The province's aim has never been to maximise a single tournament - it's to redirect the billions flowing to offshore platforms into a regulated system that keeps money and protections in Alberta.</p>
 
       <div class="revenue-box">
         <div class="rev-item"><div class="rev-num">20%</div><div class="rev-label">Province's share of GGR</div></div>
@@ -1197,7 +1283,7 @@ setInterval(updateCountdown,1000);
 
       <h2>For players: what to do on July 13</h2>
 
-      <p>On the morning of July 13, licensed casino and sportsbook sites will go live in Alberta for the first time. If you've been using an offshore platform, that site will technically be operating illegally in the province from that date — the AGLC has made clear that unregulated operators must cease activity or face exclusion from future licensing.</p>
+      <p>On the morning of July 13, licensed casino and sportsbook sites will go live in Alberta for the first time. If you've been using an offshore platform, that site will technically be operating illegally in the province from that date - the AGLC has made clear that unregulated operators must cease activity or face exclusion from future licensing.</p>
 
       <p>Our advice: use the 27 days remaining to compare offers from confirmed operators on our <a href="../reviews.html">reviews page</a>, read the bonus terms carefully, and make sure you understand the responsible gambling tools available to you before you deposit anywhere.</p>
 
@@ -1243,6 +1329,615 @@ setInterval(updateCountdown,1000);
 </footer>
 </div>
 
+<div data-page="review-betmgm">
+<nav class="nav">
+  <a href="../index.html" class="logo">Alberta<span>Casino</span>.live</a>
+  <div class="nav-links">
+    <a href="../reviews.html" class="active">Reviews</a>
+    <a href="../news.html">News</a>
+    <a href="../news.html">Regulation</a>
+    <a href="../news.html">Bonuses</a>
+  </div>
+  <a href="../reviews.html" class="nav-cta">Best Casinos →</a>
+</nav>
+
+<div class="article-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="../reviews.html">Reviews</a><span>›</span>BetMGM Alberta</div>
+    <div class="review-header">
+      <div class="review-logo-lg" style="background:#e4002b">MGM</div>
+      <div class="review-headline">
+        <h1>BetMGM Alberta Review 2026</h1>
+        <p>Casino, sportsbook, and poker under one account - backed by MGM Resorts. One of the most anticipated operators for Alberta's July 13 launch.</p>
+        <span class="reg-badge-lg aglc"><i class="ti ti-circle-check"></i> AGLC Registered - July 13, 2026</span>
+      </div>
+    </div>
+    <div class="score-summary">
+      <div class="score-card"><div class="score-card-label">Bonus</div><div class="score-card-val">9.1</div><div class="score-card-bar"><div class="score-card-fill" style="width:91%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Games</div><div class="score-card-val">9.6</div><div class="score-card-bar"><div class="score-card-fill" style="width:96%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Safety</div><div class="score-card-val">9.8</div><div class="score-card-bar"><div class="score-card-fill" style="width:98%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Banking</div><div class="score-card-val">9.0</div><div class="score-card-bar"><div class="score-card-fill" style="width:90%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Mobile</div><div class="score-card-val">9.4</div><div class="score-card-bar"><div class="score-card-fill" style="width:94%"></div></div></div>
+      <div class="overall-score"><div class="overall-label">Our Rating</div><div class="overall-num">9.4</div><div class="overall-max">/10</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="review-layout">
+    <div class="review-body">
+
+      <div class="quick-facts">
+        <div class="quick-facts-title"><i class="ti ti-info-circle" style="color:#2B7FD4;margin-right:6px"></i>BetMGM Alberta - Key Facts</div>
+        <div class="facts-grid">
+          <div class="fact-row"><span class="fact-row-label">AGLC Status</span><span class="fact-row-val" style="color:#27500A">✓ Registered</span></div>
+          <div class="fact-row"><span class="fact-row-label">Launch Date</span><span class="fact-row-val">July 13, 2026</span></div>
+          <div class="fact-row"><span class="fact-row-label">Welcome Bonus</span><span class="fact-row-val">C$3,000 deposit match + C$100 free</span></div>
+          <div class="fact-row"><span class="fact-row-label">Min. Deposit</span><span class="fact-row-val">C$10</span></div>
+          <div class="fact-row"><span class="fact-row-label">Games</span><span class="fact-row-val">9,500+</span></div>
+          <div class="fact-row"><span class="fact-row-label">Live Casino</span><span class="fact-row-val">Yes - incl. MGM Grand Vegas</span></div>
+          <div class="fact-row"><span class="fact-row-label">Sports Betting</span><span class="fact-row-val">Yes - 20+ sports</span></div>
+          <div class="fact-row"><span class="fact-row-label">Poker</span><span class="fact-row-val">Yes</span></div>
+          <div class="fact-row"><span class="fact-row-label">Mobile App</span><span class="fact-row-val">iOS & Android</span></div>
+          <div class="fact-row"><span class="fact-row-label">Payments</span><span class="fact-row-val">Interac, Visa, Mastercard</span></div>
+          <div class="fact-row"><span class="fact-row-label">Min. Age</span><span class="fact-row-val">18+</span></div>
+          <div class="fact-row"><span class="fact-row-label">Loyalty Program</span><span class="fact-row-val">MGM Rewards</span></div>
+        </div>
+      </div>
+
+      <h2>Our verdict on BetMGM Alberta</h2>
+      <p>BetMGM enters Alberta as the most complete regulated casino product available in the province. The combination of a 9,500+ game library, live dealer tables streaming directly from MGM Grand in Las Vegas, a single account covering casino, sportsbook, and poker, and the MGM Rewards loyalty program that converts online points into real-world MGM Resort perks adds up to something no purely online operator can replicate.</p>
+      <p>It was also the fastest mover in Alberta. <strong>BetMGM was first on record to respond publicly when AGLC opened operator registration in January 2026</strong>, with Chief Revenue Officer Matt Prevost describing Alberta as the company's first multi-product iGaming jurisdiction launch in over four years - a strategic priority, not a routine expansion. CEO Adam Greenblatt confirmed the July 13 commitment publicly during Q1 2026 earnings. Pre-registration opened for Alberta residents in April 2026.</p>
+      <p>The welcome bonus is generous for Canada: a 100% deposit match up to C$3,000 plus C$100 in bonus funds on the house. For players who want a single platform that covers every type of gambling without compromise, BetMGM is the strongest day-one option in Alberta.</p>
+
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>✓ Pros</h4>
+          <ul>
+            <li>9,500+ games - largest library at Alberta launch</li>
+            <li>Live casino streaming from actual MGM Grand, Las Vegas</li>
+            <li>Single account for casino, sportsbook & poker</li>
+            <li>MGM Rewards redeemable at 20+ physical MGM Resorts</li>
+            <li>AGLC registered from day one</li>
+            <li>Established Ontario track record</li>
+            <li>C$3,000 welcome bonus - one of Alberta's biggest</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>✗ Cons</h4>
+          <ul>
+            <li>Alberta-specific bonus terms not yet published</li>
+            <li>Wagering requirements apply to deposit match</li>
+            <li>Payout speeds not yet confirmed for Alberta</li>
+            <li>No dedicated Alberta customer support team announced</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Games library</h2>
+      <p>With over 9,500 titles at launch, BetMGM has the broadest casino game selection of any operator confirmed for Alberta. The library spans slots, live dealer tables, video poker, virtual sports, and an exclusive MGM Grand Millions progressive jackpot series that comes in Regular, High-Roller, Megaways, and LuckyTap variations.</p>
+      <p>In 2025 alone, BetMGM awarded over $122 million in progressive jackpot winnings globally. The slot library includes content from Pragmatic Play, NetEnt, Evolution, and dozens of other premium studios, with a dedicated "New" section that updates regularly and seasonal themed categories rotating throughout the year.</p>
+
+      <h3>Live casino</h3>
+      <p>This is where BetMGM genuinely stands apart from every other Alberta operator. MGM Grand American Roulette streams live from the casino floor in Las Vegas - actual real-world casino atmosphere, not a studio set. For Alberta players who want an authentic land-based experience from home, no other licensed platform offers this. Standard live dealer tables - blackjack, baccarat, roulette, game shows - are also available around the clock.</p>
+
+      <h3>Sports betting</h3>
+      <p>BetMGM's sportsbook covers 20+ sports with competitive odds, in-play betting, and a strong parlay builder. The platform has built a reputation in Ontario and across North America for deep NHL and NFL markets, which will be particularly relevant for Alberta players heading into the 2026-27 seasons. Note that election betting is not permitted under Alberta's iGaming framework.</p>
+
+      <h3>Poker</h3>
+      <p>One of very few Alberta operators offering a dedicated poker product, BetMGM's poker room brings cash games and tournaments under the same account as casino and sportsbook. Players earn the same MGM Rewards Points across all three verticals.</p>
+
+      <h2>Welcome bonus</h2>
+      <p>BetMGM's confirmed Canadian welcome offer is a <strong>100% deposit match up to C$3,000 plus C$100 in bonus funds on the house</strong>. Based on Ontario terms (which Alberta is expected to mirror), the deposit match comes with wagering requirements before withdrawal. The C$100 bonus credit is available on the house without a deposit - a genuine no-risk opportunity to explore the platform on arrival.</p>
+
+      <div class="key-takeaway">
+        <p><strong>Bonus note:</strong> Alberta-specific terms will be published closer to July 13. We will update this section as soon as they are confirmed. Always read the full bonus terms before depositing - pay particular attention to wagering requirements, eligible games, and expiry windows.</p>
+      </div>
+
+      <h2>MGM Rewards - the loyalty advantage</h2>
+      <p>BetMGM's loyalty programme is the most distinctive in Alberta's new market. Every dollar wagered earns BetMGM Rewards Points (BRPs), which accumulate toward tier status unlocking benefits like birthday bonuses, faster withdrawals, VIP hosts, and personalised promotions. The key differentiator: <strong>BRPs convert directly into MGM Rewards Points usable at over 20 physical MGM Resorts locations</strong> - hotel stays, dining, entertainment, and spa credit.</p>
+      <p>For Alberta players who travel to Las Vegas, no other online casino in the province offers this kind of real-world redemption. It transforms BetMGM from a purely digital product into something with tangible offline value.</p>
+
+      <h2>Mobile app</h2>
+      <p>BetMGM's iOS and Android apps are consistently rated among the best in regulated Canadian markets. The app covers casino, sportsbook, and poker in a single interface with quick-deposit functionality, Touch/Face ID login, and push notifications for live bet updates. Performance on mobile is smooth - the live casino tables stream without lag on a standard 4G connection.</p>
+
+      <h2>Banking & payments</h2>
+      <p>BetMGM Alberta will support Interac e-Transfer, Visa, and Mastercard at launch. Interac is the preferred method for Canadian players - instant deposits, low fees, and familiar banking infrastructure. Withdrawal processing times for Alberta have not yet been confirmed, but Ontario benchmarks suggest 24-72 hours for most methods.</p>
+      <p>All transactions are processed in CAD - no currency conversion fees.</p>
+
+      <h2>Safety & responsible gambling</h2>
+      <p>As an AGLC-registered operator, BetMGM must integrate with Alberta's centralised self-exclusion system at selfexclusion.ca, provide mandatory deposit limits and time-out tools, and maintain RG Check accreditation from the Responsible Gambling Council. These aren't optional - they are go-live conditions.</p>
+      <p>BetMGM has also announced plans to leverage its long-standing relationships with Alberta sports icons <strong>Connor McDavid and Wayne Gretzky</strong> in its Alberta marketing - a sign of serious local investment, and one that will come with obligations under AGLC's strict advertising rules around responsible gambling messaging.</p>
+      <p>Additional support resources for Alberta players: GameSense Info Line at 1-833-447-7523 and Alberta Health Services Addiction Helpline at 1-866-332-2322.</p>
+
+      <div class="rating-breakdown">
+        <div class="rb-title">Full rating breakdown</div>
+        <div class="rb-row"><span class="rb-label">Games library</span><div class="rb-track"><div class="rb-fill" style="width:96%"></div></div><span class="rb-val">9.6</span></div>
+        <div class="rb-row"><span class="rb-label">Welcome bonus</span><div class="rb-track"><div class="rb-fill" style="width:91%"></div></div><span class="rb-val">9.1</span></div>
+        <div class="rb-row"><span class="rb-label">Live casino</span><div class="rb-track"><div class="rb-fill" style="width:98%"></div></div><span class="rb-val">9.8</span></div>
+        <div class="rb-row"><span class="rb-label">Mobile app</span><div class="rb-track"><div class="rb-fill" style="width:94%"></div></div><span class="rb-val">9.4</span></div>
+        <div class="rb-row"><span class="rb-label">Banking</span><div class="rb-track"><div class="rb-fill" style="width:90%"></div></div><span class="rb-val">9.0</span></div>
+        <div class="rb-row"><span class="rb-label">Safety & RG</span><div class="rb-track"><div class="rb-fill" style="width:98%"></div></div><span class="rb-val">9.8</span></div>
+        <div class="rb-row"><span class="rb-label">Loyalty program</span><div class="rb-track"><div class="rb-fill" style="width:97%"></div></div><span class="rb-val">9.7</span></div>
+        <div class="rb-row"><span class="rb-label">Sports betting</span><div class="rb-track"><div class="rb-fill" style="width:92%"></div></div><span class="rb-val">9.2</span></div>
+      </div>
+
+      <div class="verdict-box">
+        <div class="verdict-title">AlbertaCasino.live Verdict</div>
+        <div class="verdict-text">BetMGM is our top-rated casino for Alberta's July 13 launch. The sheer breadth of the product - 9,500+ games, live tables from Las Vegas, a full sportsbook, poker, and MGM Rewards - puts it in a category of its own. If you want one account that does everything, this is it. Pre-register now to secure your welcome bonus from day one.</div>
+        <a href="#" class="verdict-cta">Pre-Register at BetMGM <i class="ti ti-arrow-right"></i></a>
+      </div>
+
+      <div class="disclaimer">
+        <strong>Disclaimer:</strong> BetMGM Alberta launches July 13, 2026. Bonus terms are based on Ontario benchmarks and may differ for Alberta - verify terms at BetMGM.ca before depositing. AlbertaCasino.live may earn affiliate commission from links on this page. Must be 18+ and located in Alberta. Gambling can be addictive - Problem Gambling Helpline: 1-800-522-4700.
+      </div>
+
+    </div>
+
+    <aside class="sidebar-sticky">
+      <div class="sidebar-cta" style="background:#e4002b">
+        <div class="sidebar-cta-logo" style="background:rgba(255,255,255,0.15)">MGM</div>
+        <div class="sidebar-cta-name">BetMGM Alberta</div>
+        <div class="sidebar-cta-bonus">C$3,000 bonus + C$100 free</div>
+        <a href="#" class="sidebar-cta-btn">Pre-Register Now</a>
+        <div class="sidebar-cta-disclaimer">18+. T&Cs apply. AGLC registered. Launches July 13.</div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">More reviews</div>
+        <a href="play-alberta.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">🏛️</span>
+          <div><div class="sidebar-link-title">Play Alberta Review</div><div class="sidebar-link-meta">Gov. Operated · Live now</div></div>
+        </a>
+        <a href="betcity-alberta.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">🏆</span>
+          <div><div class="sidebar-link-title">BetCity Alberta Review</div><div class="sidebar-link-meta">AGLC Registered · 9.4/10</div></div>
+        </a>
+        <a href="../reviews.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">📋</span>
+          <div><div class="sidebar-link-title">All casino reviews</div><div class="sidebar-link-meta">8 operators reviewed</div></div>
+        </a>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">Latest news</div>
+        <a href="../news/43-operators-registered.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">📋</span>
+          <div><div class="sidebar-link-title">43 operators confirmed for July 13</div><div class="sidebar-link-meta">Regulation · June 16</div></div>
+        </a>
+        <a href="../news/self-exclusion-explained.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">🛡️</span>
+          <div><div class="sidebar-link-title">Alberta's self-exclusion system explained</div><div class="sidebar-link-meta">Player Guide · June 14</div></div>
+        </a>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">Alberta<span>Casino</span>.live</div>
+    <div class="footer-links">
+      <a href="../reviews.html">Casino Reviews</a>
+      <a href="../news.html">News</a>
+      <a href="../news/self-exclusion-explained.html">Responsible Gambling</a>
+      <a href="#">About</a>
+    </div>
+    <div class="footer-disc">AlbertaCasino.live may earn commission from affiliate links. Gambling is for 18+ only. Problem Gambling Helpline: 1-800-522-4700.</div>
+  </div>
+</footer>
+</div>
+
+<div data-page="review-playalberta">
+<nav class="nav">
+  <a href="../index.html" class="logo">Alberta<span>Casino</span>.live</a>
+  <div class="nav-links">
+    <a href="../reviews.html" class="active">Reviews</a>
+    <a href="../news.html">News</a>
+    <a href="../news.html">Regulation</a>
+    <a href="../news.html">Bonuses</a>
+  </div>
+  <a href="../reviews.html" class="nav-cta">Best Casinos →</a>
+</nav>
+
+<div class="article-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="../reviews.html">Reviews</a><span>›</span>Play Alberta</div>
+    <div class="review-header">
+      <div class="review-logo-lg" style="background:#005eb8">PA</div>
+      <div class="review-headline">
+        <h1>Play Alberta Review 2026</h1>
+        <p>Alberta's government-run online casino - operated directly by the AGLC. The safest option in the province, and the only legal platform before July 13.</p>
+        <span class="reg-badge-lg gov"><i class="ti ti-shield-check"></i> Government Operated - AGLC</span>
+      </div>
+    </div>
+    <div class="score-summary">
+      <div class="score-card"><div class="score-card-label">Bonus</div><div class="score-card-val">6.5</div><div class="score-card-bar"><div class="score-card-fill" style="width:65%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Games</div><div class="score-card-val">6.8</div><div class="score-card-bar"><div class="score-card-fill" style="width:68%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Safety</div><div class="score-card-val">10</div><div class="score-card-bar"><div class="score-card-fill" style="width:100%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Banking</div><div class="score-card-val">7.0</div><div class="score-card-bar"><div class="score-card-fill" style="width:70%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Mobile</div><div class="score-card-val">7.2</div><div class="score-card-bar"><div class="score-card-fill" style="width:72%"></div></div></div>
+      <div class="overall-score"><div class="overall-label">Our Rating</div><div class="overall-num">7.5</div><div class="overall-max">/10</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="review-layout">
+    <div class="review-body">
+
+      <div class="quick-facts">
+        <div class="quick-facts-title"><i class="ti ti-info-circle" style="color:#2B7FD4;margin-right:6px"></i>Play Alberta - Key Facts</div>
+        <div class="facts-grid">
+          <div class="fact-row"><span class="fact-row-label">Operator</span><span class="fact-row-val">AGLC (Government)</span></div>
+          <div class="fact-row"><span class="fact-row-label">Available</span><span class="fact-row-val" style="color:#27500A">✓ Live Now</span></div>
+          <div class="fact-row"><span class="fact-row-label">Welcome Bonus</span><span class="fact-row-val">C$20 on first deposit</span></div>
+          <div class="fact-row"><span class="fact-row-label">Min. Deposit</span><span class="fact-row-val">C$10</span></div>
+          <div class="fact-row"><span class="fact-row-label">Games</span><span class="fact-row-val">400+</span></div>
+          <div class="fact-row"><span class="fact-row-label">Live Casino</span><span class="fact-row-val">No</span></div>
+          <div class="fact-row"><span class="fact-row-label">Sports Betting</span><span class="fact-row-val">Yes (Sport Select)</span></div>
+          <div class="fact-row"><span class="fact-row-label">Poker</span><span class="fact-row-val">No</span></div>
+          <div class="fact-row"><span class="fact-row-label">Mobile App</span><span class="fact-row-val">Browser-based (mobile optimised)</span></div>
+          <div class="fact-row"><span class="fact-row-label">Payments</span><span class="fact-row-val">Visa, Mastercard, Interac</span></div>
+          <div class="fact-row"><span class="fact-row-label">Min. Age</span><span class="fact-row-val">18+</span></div>
+          <div class="fact-row"><span class="fact-row-label">Loyalty Program</span><span class="fact-row-val">None</span></div>
+        </div>
+      </div>
+
+      <h2>Our verdict on Play Alberta</h2>
+      <p>Play Alberta is a unique product in Alberta's gambling landscape - and that uniqueness cuts both ways. As the AGLC's own platform, it is the safest online casino in the province by definition. Every dollar wagered stays within Alberta's regulated ecosystem, with revenues directed back into provincial programs and responsible gambling initiatives. The operator literally is the regulator, so there is no gap between licence compliance and actual operations.</p>
+      <p>That said, Play Alberta was built as a monopoly product, not a competitive one. Its 400+ game library, absent live dealer tables, minimal welcome bonus, and lack of a loyalty programme reflect a platform that has never had to compete for players. From July 13, it will. The private operators entering Alberta - BetMGM, DraftKings, FanDuel - will offer dramatically larger libraries, more generous bonuses, and richer loyalty programmes. Play Alberta's competitive position will be tested hard.</p>
+      <p>Our honest assessment: <strong>Play Alberta is the right choice for players who prioritise safety above all else</strong>, or who want to start gambling before July 13 while private operators are still unlicensed. It is not the right choice for players seeking the best games, biggest bonuses, or most rewarding loyalty experience.</p>
+
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>✓ Pros</h4>
+          <ul>
+            <li>Maximum possible safety - operated by the regulator itself</li>
+            <li>Available right now - no need to wait for July 13</li>
+            <li>Revenue supports Alberta public programs</li>
+            <li>Strong responsible gambling tools built in</li>
+            <li>Centralised self-exclusion integrated</li>
+            <li>Low minimum deposit (C$10)</li>
+            <li>20x wagering requirement - fair by industry standards</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>✗ Cons</h4>
+          <ul>
+            <li>Only 400+ games vs 9,500+ at BetMGM</li>
+            <li>No live dealer casino tables</li>
+            <li>No loyalty programme</li>
+            <li>C$20 bonus is modest vs private operator offers</li>
+            <li>Slower payouts (3-5 business days)</li>
+            <li>No poker product</li>
+            <li>User experience feels dated vs private operators</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Games library</h2>
+      <p>Play Alberta hosts over 400 casino games powered by a curated group of verified iGaming providers. The platform is particularly strong on IGT titles - the same content found on land-based machines at Alberta's physical casinos - alongside contributions from other established studios. You'll find slots, video poker, keno, and instant-win games across the library.</p>
+      <p>Notably absent: <strong>there are no live dealer table games</strong>. Players who want the real-time dealer experience - blackjack with a human dealer, live roulette, baccarat - will not find it at Play Alberta. This is one of the most significant gaps in the platform compared to private operators, most of whom will launch with full live casino suites.</p>
+
+      <h3>What games are available</h3>
+      <p>The games available at Play Alberta include a solid selection of slots from Pragmatic Play, IGT, and other verified providers. Table games including blackjack, roulette, and baccarat are available in RNG (random number generator) format - meaning you play against software rather than a live dealer. Instant win games and lottery-style titles round out the library.</p>
+      <p>All games are certified for fairness by independent auditors, and the RTP (return to player) figures are published in-game as required by AGLC standards.</p>
+
+      <h2>Welcome bonus</h2>
+      <p>Play Alberta's welcome offer is modest by the standards of what private operators will bring to Alberta on July 13: <strong>deposit C$10 and receive C$20 in bonus funds instantly</strong>. In percentage terms that's a 200% match on the minimum deposit - respectable - but the absolute amount is far below the multi-hundred-dollar offers that BetMGM and FanDuel are expected to launch with.</p>
+      <p>The wagering requirement is 20x, which must be completed within 21 days. Casino games, instants, and live dealer bets contribute at different rates - check the current terms at PlayAlberta.ca. Sports bets and lottery purchases contribute nothing to the wagering requirement.</p>
+
+      <div class="key-takeaway">
+        <p><strong>Bonus comparison:</strong> Play Alberta's C$20 bonus vs BetMGM's expected C$3,000 deposit match tells the competitive story in one number. For bonus value, Play Alberta will not be competitive from July 13. But it's available now, while private operators are not yet licensed.</p>
+      </div>
+
+      <h2>Responsible gambling - where Play Alberta excels</h2>
+      <p>This is Play Alberta's genuine strength. As the AGLC's own platform, responsible gambling isn't a checkbox - it's the foundation of the product. The platform has led the province's approach to player protection since its 2020 launch.</p>
+      <p><strong>Deposit limits:</strong> You can set daily, weekly, or monthly caps. The system enforces them - you cannot override a limit you've set during its active period.</p>
+      <p><strong>Session tracking:</strong> Your account dashboard shows a full history of deposits, withdrawals, wagers, and net outcomes. Play Alberta is one of the few platforms that makes this data genuinely easy to read and act on.</p>
+      <p><strong>GameSense:</strong> Play Alberta integrates directly with GameSense, the AGLC's responsible gambling programme. The GameSense Info Centre is accessible from within the platform at any time.</p>
+      <p><strong>Self-exclusion:</strong> Play Alberta is integrated with AGLC's self-exclusion system. A single registration excludes you from both PlayAlberta online and AGLC-regulated land-based casinos simultaneously.</p>
+      <p><strong>Cooling-off periods and time-outs:</strong> Available directly from account settings without requiring a call to customer support.</p>
+
+      <h2>Sports betting</h2>
+      <p>Play Alberta offers Sport Select - the AGLC's sports betting product - covering NHL, NFL, NBA, MLB, and other major leagues. The product is functional but limited compared to what private sportsbook operators like BetMGM and DraftKings will bring to Alberta. Single-game wagering is available, but the odds and market depth lag behind dedicated sportsbooks.</p>
+      <p>One important note: <strong>election betting is not permitted in Alberta</strong>, and Play Alberta does not offer it. This applies to all licensed operators in the province.</p>
+
+      <h2>Banking & payments</h2>
+      <p>Play Alberta accepts Visa, Mastercard, and Interac for deposits. Interac is the recommended method for Alberta players - deposits are near-instant and there are no currency conversion fees as all accounts are held in CAD.</p>
+      <p>Withdrawal processing typically takes 3-5 business days, which is slower than the 24-hour turnaround that private operators like BetMGM are likely to offer. This is a notable disadvantage for players who want quick access to winnings.</p>
+
+      <h2>Mobile experience</h2>
+      <p>Play Alberta does not have a dedicated native app. The platform is accessible via mobile browser on iOS and Android, and the site is mobile-optimised - it works adequately on phones and tablets. However, the experience falls short of the polished native apps that BetMGM, FanDuel, and DraftKings will bring to Alberta, all of which have been refined across multiple North American markets.</p>
+
+      <h2>Play Alberta vs private operators - the honest comparison</h2>
+      <p>From July 13, Alberta players will have a genuine choice. Here is the honest picture:</p>
+      <p><strong>Choose Play Alberta if:</strong> safety and accountability are your top priorities, you want to play now before July 13, you prefer that your gambling spend directly supports Alberta public services, or you're a casual player who doesn't need a large game library or loyalty perks.</p>
+      <p><strong>Choose a private operator if:</strong> you want the best game selection, biggest bonuses, live dealer tables, a loyalty programme with real-world value, or faster payouts. BetMGM, DraftKings, and FanDuel will all be AGLC-licensed from July 13 - meaning they carry the same regulatory protection, just with significantly more product depth.</p>
+
+      <div class="rating-breakdown">
+        <div class="rb-title">Full rating breakdown</div>
+        <div class="rb-row"><span class="rb-label">Games library</span><div class="rb-track"><div class="rb-fill" style="width:68%"></div></div><span class="rb-val">6.8</span></div>
+        <div class="rb-row"><span class="rb-label">Welcome bonus</span><div class="rb-track"><div class="rb-fill" style="width:65%"></div></div><span class="rb-val">6.5</span></div>
+        <div class="rb-row"><span class="rb-label">Live casino</span><div class="rb-track"><div class="rb-fill" style="width:0%"></div></div><span class="rb-val">N/A</span></div>
+        <div class="rb-row"><span class="rb-label">Mobile app</span><div class="rb-track"><div class="rb-fill" style="width:72%"></div></div><span class="rb-val">7.2</span></div>
+        <div class="rb-row"><span class="rb-label">Banking</span><div class="rb-track"><div class="rb-fill" style="width:70%"></div></div><span class="rb-val">7.0</span></div>
+        <div class="rb-row"><span class="rb-label">Safety & RG</span><div class="rb-track"><div class="rb-fill" style="width:100%"></div></div><span class="rb-val">10</span></div>
+        <div class="rb-row"><span class="rb-label">Loyalty program</span><div class="rb-track"><div class="rb-fill" style="width:0%"></div></div><span class="rb-val">N/A</span></div>
+        <div class="rb-row"><span class="rb-label">Sports betting</span><div class="rb-track"><div class="rb-fill" style="width:65%"></div></div><span class="rb-val">6.5</span></div>
+      </div>
+
+      <div class="verdict-box">
+        <div class="verdict-title">AlbertaCasino.live Verdict</div>
+        <div class="verdict-text">Play Alberta earns a perfect 10 for safety - and genuinely nothing else comes close on that dimension. As the only legal platform before July 13 and the one with the deepest responsible gambling integration, it has a real and important role in Alberta's gambling ecosystem. But from July 13, AGLC-licensed private operators will offer dramatically more game variety, bigger bonuses, and richer loyalty programmes while carrying exactly the same regulatory stamp. Unless safety is your absolute priority or you need to play before July 13, the private operators will serve most players better.</div>
+        <a href="https://www.playalberta.ca" target="_blank" rel="noopener" class="verdict-cta">Visit PlayAlberta.ca <i class="ti ti-external-link"></i></a>
+      </div>
+
+      <div class="disclaimer">
+        <strong>Disclaimer:</strong> Play Alberta is operated by the AGLC. Bonus terms are subject to change - verify current terms at PlayAlberta.ca. AlbertaCasino.live is an independent review site and is not affiliated with the AGLC or Play Alberta. Must be 18+ and located in Alberta. Problem Gambling Helpline: 1-800-522-4700. GameSense: 1-866-815-0222.
+      </div>
+
+    </div>
+
+    <aside class="sidebar-sticky">
+      <div class="sidebar-cta" style="background:#005eb8">
+        <div class="sidebar-cta-logo" style="background:rgba(255,255,255,0.15)">PA</div>
+        <div class="sidebar-cta-name">Play Alberta</div>
+        <div class="sidebar-cta-bonus">C$20 bonus on first deposit</div>
+        <a href="https://www.playalberta.ca" target="_blank" rel="noopener" class="sidebar-cta-btn">Play Now - Live Today</a>
+        <div class="sidebar-cta-disclaimer">18+. T&Cs apply. Government operated. gamble responsibly.</div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">More reviews</div>
+        <a href="betmgm-alberta.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">🎰</span>
+          <div><div class="sidebar-link-title">BetMGM Alberta Review</div><div class="sidebar-link-meta">AGLC Registered · 9.4/10</div></div>
+        </a>
+        <a href="betcity-alberta.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">🏆</span>
+          <div><div class="sidebar-link-title">BetCity Alberta Review</div><div class="sidebar-link-meta">AGLC Registered · 9.2/10</div></div>
+        </a>
+        <a href="../reviews.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">📋</span>
+          <div><div class="sidebar-link-title">All casino reviews</div><div class="sidebar-link-meta">8 operators reviewed</div></div>
+        </a>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">Alberta regulation</div>
+        <a href="../news/43-operators-registered.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">📋</span>
+          <div><div class="sidebar-link-title">43 operators confirmed for July 13</div><div class="sidebar-link-meta">Regulation · June 16</div></div>
+        </a>
+        <a href="../news/self-exclusion-explained.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">🛡️</span>
+          <div><div class="sidebar-link-title">Self-exclusion system explained</div><div class="sidebar-link-meta">Player Guide · June 14</div></div>
+        </a>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">Alberta<span>Casino</span>.live</div>
+    <div class="footer-links">
+      <a href="../reviews.html">Casino Reviews</a>
+      <a href="../news.html">News</a>
+      <a href="../news/self-exclusion-explained.html">Responsible Gambling</a>
+      <a href="#">About</a>
+    </div>
+    <div class="footer-disc">AlbertaCasino.live may earn commission from affiliate links. Gambling is for 18+ only. Problem Gambling Helpline: 1-800-522-4700.</div>
+  </div>
+</footer>
+</div>
+
+<div data-page="review-betcity">
+<nav class="nav">
+  <a href="../index.html" class="logo">Alberta<span>Casino</span>.live</a>
+  <div class="nav-links">
+    <a href="../reviews.html" class="active">Reviews</a>
+    <a href="../news.html">News</a>
+    <a href="../news.html">Regulation</a>
+    <a href="../news.html">Bonuses</a>
+  </div>
+  <a href="../reviews.html" class="nav-cta">Best Casinos →</a>
+</nav>
+
+<div class="article-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><a href="../reviews.html">Reviews</a><span>›</span>BetCity Alberta</div>
+    <div class="review-header">
+      <div class="review-logo-lg" style="background:#1a6fbd">BC</div>
+      <div class="review-headline">
+        <h1>BetCity Alberta Review 2026</h1>
+        <p>Our editor's choice for Alberta's July 13 launch. Clean platform, fast payouts, and a C$1,000 welcome bonus built for the Canadian market.</p>
+        <span class="reg-badge-lg aglc"><i class="ti ti-circle-check"></i> AGLC Registered - July 13, 2026</span>
+      </div>
+    </div>
+    <div class="score-summary">
+      <div class="score-card"><div class="score-card-label">Bonus</div><div class="score-card-val">9.2</div><div class="score-card-bar"><div class="score-card-fill" style="width:92%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Games</div><div class="score-card-val">8.8</div><div class="score-card-bar"><div class="score-card-fill" style="width:88%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Safety</div><div class="score-card-val">9.6</div><div class="score-card-bar"><div class="score-card-fill" style="width:96%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Banking</div><div class="score-card-val">9.4</div><div class="score-card-bar"><div class="score-card-fill" style="width:94%"></div></div></div>
+      <div class="score-card"><div class="score-card-label">Mobile</div><div class="score-card-val">9.0</div><div class="score-card-bar"><div class="score-card-fill" style="width:90%"></div></div></div>
+      <div class="overall-score"><div class="overall-label">Our Rating</div><div class="overall-num">9.2</div><div class="overall-max">/10</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="review-layout">
+    <div class="review-body">
+
+      <div class="quick-facts">
+        <div class="quick-facts-title"><i class="ti ti-info-circle" style="color:#2B7FD4;margin-right:6px"></i>BetCity Alberta - Key Facts</div>
+        <div class="facts-grid">
+          <div class="fact-row"><span class="fact-row-label">AGLC Status</span><span class="fact-row-val" style="color:#27500A">✓ Registered</span></div>
+          <div class="fact-row"><span class="fact-row-label">Launch Date</span><span class="fact-row-val">July 13, 2026</span></div>
+          <div class="fact-row"><span class="fact-row-label">Welcome Bonus</span><span class="fact-row-val">C$1,000 + 200 free spins</span></div>
+          <div class="fact-row"><span class="fact-row-label">Min. Deposit</span><span class="fact-row-val">C$10</span></div>
+          <div class="fact-row"><span class="fact-row-label">Games</span><span class="fact-row-val">1,800+</span></div>
+          <div class="fact-row"><span class="fact-row-label">Live Casino</span><span class="fact-row-val">Yes - Evolution powered</span></div>
+          <div class="fact-row"><span class="fact-row-label">Sports Betting</span><span class="fact-row-val">Yes</span></div>
+          <div class="fact-row"><span class="fact-row-label">Poker</span><span class="fact-row-val">No</span></div>
+          <div class="fact-row"><span class="fact-row-label">Mobile App</span><span class="fact-row-val">iOS & Android</span></div>
+          <div class="fact-row"><span class="fact-row-label">Payments</span><span class="fact-row-val">Interac, Visa, Mastercard</span></div>
+          <div class="fact-row"><span class="fact-row-label">Payout Speed</span><span class="fact-row-val">24 hours</span></div>
+          <div class="fact-row"><span class="fact-row-label">Min. Age</span><span class="fact-row-val">18+</span></div>
+        </div>
+      </div>
+
+      <h2>Our verdict on BetCity Alberta</h2>
+      <p>BetCity is our Editor's Choice for Alberta's July 13 launch - not because it has the biggest game library (BetMGM wins there) or the flashiest brand (DraftKings and FanDuel have more North American name recognition), but because it gets the fundamentals right in a way that matters most to everyday Alberta players.</p>
+      <p>The C$1,000 welcome bonus with 200 free spins is genuinely competitive. The 24-hour Interac payout is among the fastest in the province. The platform is clean, fast, and clearly built for Canadian players rather than adapted from a US product. And as one of the first operators to complete AGLC registration ahead of July 13, BetCity has demonstrated a commitment to the Alberta market that goes beyond marketing intent.</p>
+      <p>It is not the right pick for players who want poker, the deepest sportsbook, or the prestige of the MGM Rewards programme. But for the majority of Alberta casino players - slots, live tables, straightforward banking, and a fair welcome offer - BetCity is the most complete package at launch.</p>
+
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>✓ Pros</h4>
+          <ul>
+            <li>Among the first to complete AGLC registration</li>
+            <li>C$1,000 bonus + 200 free spins - strong launch offer</li>
+            <li>24-hour Interac withdrawals - fastest in Alberta</li>
+            <li>Evolution-powered live casino suite</li>
+            <li>Clean, Canada-first interface</li>
+            <li>Low C$10 minimum deposit</li>
+            <li>Full responsible gambling suite at launch</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>✗ Cons</h4>
+          <ul>
+            <li>1,800 games vs BetMGM's 9,500+</li>
+            <li>No poker product</li>
+            <li>Less North American brand recognition</li>
+            <li>No equivalent of MGM Rewards real-world redemption</li>
+            <li>Alberta-specific bonus terms pending final confirmation</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Games library</h2>
+      <p>BetCity Alberta launches with over 1,800 casino games - a strong offering for a market-entry product, even if it falls well short of BetMGM's 9,500+. The library is curated rather than exhaustive: every title has been selected for quality, with content from Pragmatic Play, NetEnt, Play'n GO, and Hacksaw Gaming among the key providers.</p>
+      <p>Play'n GO's presence at Alberta launch is confirmed - the Swedish studio received its AGLC supplier licence in late May 2026, making its full catalogue including Book of Dead, Rich Wilde, and Moon Princess series available from day one. Pragmatic Play's most popular titles - Gates of Olympus, Sweet Bonanza, The Dog House - are also in the library.</p>
+
+      <h3>Live casino</h3>
+      <p>BetCity's live casino is powered by Evolution, the global market leader in live dealer content. This is important: Evolution tables are the gold standard in the industry, with the highest production quality, widest variety of games, and most reliable streaming. Alberta players will have access to live blackjack, roulette, baccarat, craps, and Evolution's exclusive game show titles - Crazy Time, Monopoly Live, Deal or No Deal.</p>
+      <p>The live casino is available around the clock, with dedicated Canadian-facing tables during peak evening hours.</p>
+
+      <h3>Slots</h3>
+      <p>The slot section is well-organised with clear filtering by provider, volatility, and theme. New titles are added regularly, and BetCity operates a "Hot Right Now" section tracking the most-played games in real time. Progressive jackpot slots are included, with several network jackpots running across multiple operator platforms simultaneously.</p>
+
+      <h2>Welcome bonus</h2>
+      <p>BetCity's Alberta launch offer is a <strong>100% deposit match up to C$1,000 plus 200 free spins</strong>. This is a well-structured offer - the deposit match gives bankroll depth for casino play, while the free spins provide immediate slot access without requiring further wagering from your own funds.</p>
+      <p>The welcome bonus is split across the first deposit: the match applies to your initial deposit, and the free spins are credited in batches over the first week (40 per day over five days) - a deliberate structure that encourages return visits rather than a one-time dump of spins.</p>
+
+      <div class="key-takeaway">
+        <p><strong>Wagering requirements:</strong> Full Alberta-specific bonus terms will be published on July 13. Based on the Canadian market standard, expect wagering requirements in the range of 20-35x on bonus funds. Free spin winnings are typically subject to separate, lower requirements. Always verify terms before depositing.</p>
+      </div>
+
+      <h2>Banking & payments - BetCity's strongest card</h2>
+      <p>This is where BetCity genuinely leads the Alberta field. <strong>Withdrawals via Interac are processed within 24 hours</strong> - the fastest confirmed payout time of any operator we've reviewed for Alberta's launch. For players who've used offshore sites with 3-7 day withdrawal delays, this will be a meaningful upgrade.</p>
+      <p>Deposits are instant via Interac e-Transfer, Visa, and Mastercard. All transactions are in CAD with no currency conversion fees. Minimum withdrawal is C$10 - no high cashout thresholds that trap bonus winnings in the account.</p>
+      <p>The 24-hour Interac turnaround is not just fast by Alberta standards - it is fast by any regulated market standard globally. It reflects a platform that has optimised its Canadian banking pipeline rather than adapting a US or European infrastructure.</p>
+
+      <h2>Mobile app</h2>
+      <p>BetCity offers native iOS and Android apps alongside the mobile browser experience. The app covers casino and sportsbook in a single interface with biometric login, quick deposit, and real-time notifications for live bet outcomes. Performance testing in comparable markets shows smooth live casino streaming on standard 4G without buffering.</p>
+      <p>The interface is clean and uncluttered - an intentional design choice that makes navigation fast. Players switching from Play Alberta's browser-based mobile site will notice an immediate improvement in responsiveness.</p>
+
+      <h2>Sports betting</h2>
+      <p>BetCity's sportsbook covers the major North American leagues - NHL, NFL, NBA, MLB, CFL - plus international football, tennis, and esports. In-play betting is available across all major markets with live odds updates. The parlay builder allows multi-leg same-game parlays on NHL and NFL matches.</p>
+      <p>The sportsbook is competent rather than class-leading. For Alberta players who want the deepest sports betting product, DraftKings or BetMGM will offer more markets and more specialised features. BetCity's sportsbook serves casual and recreational bettors well without overwhelming them with options.</p>
+
+      <h2>Safety & responsible gambling</h2>
+      <p>As an AGLC-registered operator, BetCity must meet the same mandatory responsible gambling requirements as every other licensed platform. Centralised self-exclusion integration, mandatory deposit limits, time-out tools, cooling-off periods, and RG Check accreditation are all confirmed at launch.</p>
+      <p>BetCity's responsible gambling interface is well-designed - the key tools are accessible within two taps from the account menu, rather than buried in settings pages. The activity statement (summary of gambling history) is automatically generated monthly and emailed to your registered address.</p>
+
+      <h2>Why we named BetCity our Editor's Choice</h2>
+      <p>Three reasons. First, BetCity was among the earliest operators to complete AGLC registration - a signal of genuine commitment to Alberta rather than a last-minute market entry. Second, its 24-hour Interac withdrawal is the fastest in the province and reflects a banking infrastructure built specifically for Canadian players. Third, the C$1,000 + 200 free spins offer is well-structured for player value without burying the terms in impossible wagering requirements.</p>
+      <p>BetMGM will have more games. DraftKings will have a deeper sportsbook. FanDuel will have bigger brand recognition. But for the player who wants a clean, fast, trustworthy casino experience on July 13 - BetCity is the most complete package for Alberta specifically.</p>
+
+      <div class="rating-breakdown">
+        <div class="rb-title">Full rating breakdown</div>
+        <div class="rb-row"><span class="rb-label">Games library</span><div class="rb-track"><div class="rb-fill" style="width:88%"></div></div><span class="rb-val">8.8</span></div>
+        <div class="rb-row"><span class="rb-label">Welcome bonus</span><div class="rb-track"><div class="rb-fill" style="width:92%"></div></div><span class="rb-val">9.2</span></div>
+        <div class="rb-row"><span class="rb-label">Live casino</span><div class="rb-track"><div class="rb-fill" style="width:93%"></div></div><span class="rb-val">9.3</span></div>
+        <div class="rb-row"><span class="rb-label">Mobile app</span><div class="rb-track"><div class="rb-fill" style="width:90%"></div></div><span class="rb-val">9.0</span></div>
+        <div class="rb-row"><span class="rb-label">Banking</span><div class="rb-track"><div class="rb-fill" style="width:94%"></div></div><span class="rb-val">9.4</span></div>
+        <div class="rb-row"><span class="rb-label">Safety & RG</span><div class="rb-track"><div class="rb-fill" style="width:96%"></div></div><span class="rb-val">9.6</span></div>
+        <div class="rb-row"><span class="rb-label">Sports betting</span><div class="rb-track"><div class="rb-fill" style="width:82%"></div></div><span class="rb-val">8.2</span></div>
+        <div class="rb-row"><span class="rb-label">User experience</span><div class="rb-track"><div class="rb-fill" style="width:91%"></div></div><span class="rb-val">9.1</span></div>
+      </div>
+
+      <div class="verdict-box">
+        <div class="verdict-title">AlbertaCasino.live Verdict - Editor's Choice</div>
+        <div class="verdict-text">BetCity is our top recommendation for most Alberta players on July 13. Fast Interac payouts, a well-structured C$1,000 bonus, Evolution live casino, and one of the earliest AGLC registrations in the province add up to the most complete launch-day package for everyday casino players. If you only sign up to one new platform on July 13, make it BetCity.</div>
+        <a href="#" class="verdict-cta">Pre-Register at BetCity <i class="ti ti-arrow-right"></i></a>
+      </div>
+
+      <div class="disclaimer">
+        <strong>Disclaimer:</strong> BetCity Alberta launches July 13, 2026. Bonus terms are indicative and will be confirmed on launch day - verify at BetCityAlberta.ca before depositing. AlbertaCasino.live may earn affiliate commission from links on this page. Must be 18+ and located in Alberta. Problem Gambling Helpline: 1-800-522-4700.
+      </div>
+
+    </div>
+
+    <aside class="sidebar-sticky">
+      <div class="sidebar-cta" style="background:#1a6fbd">
+        <div class="sidebar-cta-logo" style="background:rgba(255,255,255,0.15)">BC</div>
+        <div class="sidebar-cta-name">BetCity Alberta</div>
+        <div class="sidebar-cta-bonus">C$1,000 + 200 free spins</div>
+        <a href="#" class="sidebar-cta-btn">Pre-Register Now</a>
+        <div class="sidebar-cta-disclaimer">18+. T&Cs apply. AGLC registered. Launches July 13.</div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">More reviews</div>
+        <a href="betmgm-alberta.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">🎰</span>
+          <div><div class="sidebar-link-title">BetMGM Alberta Review</div><div class="sidebar-link-meta">AGLC Registered · 9.4/10</div></div>
+        </a>
+        <a href="play-alberta.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">🏛️</span>
+          <div><div class="sidebar-link-title">Play Alberta Review</div><div class="sidebar-link-meta">Gov. Operated · 7.5/10</div></div>
+        </a>
+        <a href="../reviews.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">📋</span>
+          <div><div class="sidebar-link-title">All casino reviews</div><div class="sidebar-link-meta">8 operators reviewed</div></div>
+        </a>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">Latest news</div>
+        <a href="../news/43-operators-registered.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">📋</span>
+          <div><div class="sidebar-link-title">43 operators confirmed for July 13</div><div class="sidebar-link-meta">Regulation · June 16</div></div>
+        </a>
+        <a href="../news/world-cup-window.html" class="sidebar-link">
+          <span class="sidebar-link-emoji">⚽</span>
+          <div><div class="sidebar-link-title">Alberta missed the World Cup window</div><div class="sidebar-link-meta">Regulation · June 12</div></div>
+        </a>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">Alberta<span>Casino</span>.live</div>
+    <div class="footer-links">
+      <a href="../reviews.html">Casino Reviews</a>
+      <a href="../news.html">News</a>
+      <a href="../news/self-exclusion-explained.html">Responsible Gambling</a>
+      <a href="#">About</a>
+    </div>
+    <div class="footer-disc">AlbertaCasino.live may earn commission from affiliate links. Gambling is for 18+ only. Problem Gambling Helpline: 1-800-522-4700.</div>
+  </div>
+</footer>
+</div>
+
 <script>
 function navigate(page) {
   document.querySelectorAll('[data-page]').forEach(el => el.classList.remove('active'));
@@ -1255,19 +1950,17 @@ document.addEventListener('click', function(e) {
   const a = e.target.closest('a');
   if(!a) return;
   const href = a.getAttribute('href') || '';
-  
   const routeMap = {
-    'index.html': 'home', '../index.html': 'home', '#': 'home',
+    'index.html': 'home', '../index.html': 'home', '#home': 'home',
     'reviews.html': 'reviews', '../reviews.html': 'reviews',
     'news.html': 'news', '../news.html': 'news',
-    'news/43-operators-registered.html': 'article1',
-    '43-operators-registered.html': 'article1',
-    'news/self-exclusion-explained.html': 'article2',
-    'self-exclusion-explained.html': 'article2',
-    'news/world-cup-window.html': 'article3',
-    'world-cup-window.html': 'article3',
-  };
-
+    'news/43-operators-registered.html': 'article1', '43-operators-registered.html': 'article1',
+    'news/self-exclusion-explained.html': 'article2', 'self-exclusion-explained.html': 'article2',
+    'news/world-cup-window.html': 'article3', 'world-cup-window.html': 'article3',
+    'reviews/betmgm-alberta.html': 'review-betmgm', 'betmgm-alberta.html': 'review-betmgm',
+    'reviews/play-alberta.html': 'review-playalberta', 'play-alberta.html': 'review-playalberta',
+    'reviews/betcity-alberta.html': 'review-betcity', 'betcity-alberta.html': 'review-betcity',
+};
   if(routeMap[href]) {
     e.preventDefault();
     navigate(routeMap[href]);
@@ -1276,9 +1969,14 @@ document.addEventListener('click', function(e) {
 
 window.addEventListener('popstate', function(e) {
   if(e.state && e.state.page) navigate(e.state.page);
+  else if(location.hash) navigate(location.hash.slice(1));
 });
 
-// Countdown
+if(location.hash) {
+  const page = location.hash.slice(1);
+  if(document.querySelector('[data-page="' + page + '"]')) navigate(page);
+}
+
 function updateCountdown(){
   const launch=new Date('2026-07-13T00:00:00-06:00');
   const now=new Date();
